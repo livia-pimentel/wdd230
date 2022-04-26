@@ -2,9 +2,9 @@ body {
     max-width: 960px;
     margin: auto;
     background-color: rgba(184, 196, 192, 0.548);
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.5;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Unna', serif;
 }
 
 header {
