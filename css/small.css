@@ -9,28 +9,29 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 300px auto;
     align-items: center;
     background-color: rgb(189, 23, 73);
     border-radius: 1em;
     margin-top: 10px;
 }
 
-header h1 {
+h1 {
     grid-column: 2/4;
     text-shadow: 10px 10px 10px black;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
-    color: rgb(247, 247, 247);
+    color: rgb(196, 189, 189);
 
 }
 
-img {
-    grid-column: 1/2;
+header img {
+    max-width: 200px;
+    height: auto;
     padding: 1em;
 }
 
-main h2 {
+h2 {
     color: rgba(17, 12, 12, 0.87);
     text-shadow: 10px 10px 10px black
 }
@@ -52,7 +53,7 @@ footer {
 .footer-paragraph {
     grid-column: 1/4;
     text-align: center;
-    color: rgb(247, 247, 247);
+    color: rgb(196, 189, 189);
     margin-top: 10px;
     margin-bottom: -20px;
 }
