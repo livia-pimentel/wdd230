@@ -1,0 +1,99 @@
+#content{
+    margin: 30px;    
+}
+
+header{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(197, 87, 241, 0.562);
+    color:rgb(20, 19, 19);
+    border-radius: 10px 10px;
+    margin: 10px;
+    padding: 1em;
+}
+
+header h1{
+    font-size: 30px;
+    line-height: 1.2em;
+}
+
+header h2{
+    font-size: 20px;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3em;
+    max-width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 15px;
+    
+}
+
+div{
+    display: block;
+    border-radius: 10px 10px;
+}
+
+.first-principle, .second-principle, .third-principle{
+    overflow: hidden;
+    background-color: rgba(149, 170, 187, 0.432);
+    padding: 1em;
+}
+
+.first-principle img, .second-principle img, .third-principle img{
+    max-width: 100%;
+    margin-top: 3%;
+}
+
+.third-principle{
+    grid-column: 1/3;
+}
+
+h1, h2, h3{
+    font-family:'Open Sans', sans-serif;
+    padding: 8px;
+    text-align: center;
+}
+
+div h3{
+    background-color: rgba(21, 19, 139, 0.774);
+    color:white;
+    font-size: 17px;
+    padding: 1em;
+
+}
+
+p, a{
+    font-size: 16px;
+    line-height: 1.2em;
+    
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: rgba(197, 87, 241, 0.562);
+    color:rgb(20, 19, 19);
+    border-radius: 10px 10px;
+    margin: 10px;
+    padding: 1em;
+}
+
+.footer-paragraph {
+    grid-column: 1/4;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+.update {
+    grid-column: 1/4;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
