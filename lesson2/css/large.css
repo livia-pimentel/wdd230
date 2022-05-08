@@ -1,7 +1,7 @@
 @media only screen and (min-width: 65em){
     main{
         display: grid;
-    grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     div h3{
         background-color: rgba(240, 13, 13, 0.842);
