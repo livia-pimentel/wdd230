@@ -71,18 +71,18 @@ div{
     border-radius: 10px 10px;
 }
 
-.purpose-site, .logo, .target-audience, .personas, .scenarios, #content-color, #content-typography{
+.purpose-site, .logo, .target-audience, .personas, .scenarios, #content-color, #content-typography, .domain-name{
     overflow: hidden;
     background-color: #b95cb385;
     padding: 1em;
 }
 
-.purpose-site, .logo, #content-color, .target-audience{
+.purpose-site, .logo, #content-color, .target-audience, .domain-name{
     text-align: center;
 }
 
 
-.purpose-site, .logo img{
+.purpose-site, .logo img, .domain-name{
     max-width: 90%;
 }
 
