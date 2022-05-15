@@ -1,7 +1,6 @@
 @media only screen and (min-width: 64rem){
     nav ul li a{
         padding: .5rem 1rem;
-        font-size: 28px;
     }
 
     .logo-header img{
@@ -9,9 +8,6 @@
         padding: 1em;
     }
 
-    .logo-header h1{
-        font-size: 2.8rem;
-    }
 
     .content-header{
         justify-content: space-around;
@@ -27,9 +23,6 @@
         width: 30%;
     }
 
-    .date{
-        font-size: 26px;
-    }
   
     .content-main{
         max-width: 100%;
@@ -43,19 +36,16 @@
     .event{
         grid-column: 1;
         grid-row: 1;
-        font-size: 22px;
     }
     
     .weather{
         grid-column: 1;
         grid-row: 2;
-        font-size: 22px;
     }
     
     .join{
         grid-column: 1;
         grid-row: 3;
-        font-size: 22px;
     }
     
     .hero{
@@ -65,7 +55,6 @@
         height: auto;
         font-family: 'Merriweather Sans', sans-serif;
         background-color:  #D3E3BF;
-        font-size: 22px;
     }
     
     .news{
@@ -74,7 +63,6 @@
         padding: 1em;
         font-family: 'Merriweather Sans', sans-serif;
         background-color:  #D3E3BF;
-        font-size: 22px;
     }
     
     .spotlight{
@@ -90,7 +78,6 @@
         margin: 2px;
         height: 220px;
         font-family: 'Merriweather Sans', sans-serif;
-        font-size: 22px;
     }
 
     .logo-footer img{
@@ -107,13 +94,6 @@
         max-height: 200px;
     }
 
-    .headings-footer{
-        font-size: 2.2rem;
-    }
-
-    .paragraph-address{
-        font-size: 1.3rem
-    }
     .logo-footer{
         justify-content: space-around;
         align-items: center;
@@ -124,13 +104,10 @@
     .contact{
         margin-right: 20px;
         width: 30%;
-        font-size: 1.3rem;
     }
     
     .last{
         align-items: center;
-        font-size: 1.3rem;
     }
-
 
 }
