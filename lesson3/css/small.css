@@ -11,7 +11,7 @@
 header{
     display: grid;
     grid-template-columns: 120px 1fr;
-    background-color: #BAB133;
+    background-color: #90AA6A;
     padding: 1em;
     margin: 20px;
     align-items: center;
@@ -27,7 +27,7 @@ header h1{
     font-family: 'Roboto', sans-serif;
     margin-left: 0.9em;
     font-size: 50px;
-    color: rgb(9, 63, 9);
+    color: #21287A;
 }
 
 nav ul {
@@ -37,17 +37,18 @@ nav ul {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;  
     margin: 20px;
-    background-color:#BAB133;
+    background-color:#90AA6A;
     border-radius: 10px 10px;
 }
 
 nav ul a{
     text-decoration: none;   
+    color:#21287A;
 }
 
 nav a:hover{
-    background-color: #084870;
-    color: #ffffff;
+    background-color: #4BBB87;
+    color: black;
 }
 
 #content-home, #content-color, #content-typography{
@@ -73,7 +74,7 @@ div{
 
 .purpose-site, .logo, .target-audience, .personas, .scenarios, #content-color, #content-typography, .domain-name{
     overflow: hidden;
-    background-color: #b95cb385;
+    background-color: #D3E3BF;
     padding: 1em;
 }
 
@@ -103,21 +104,21 @@ div{
 }
 
 .text-table-color {
-    border: 1px solid #084870;
+    border: 1px solid #21287A;
     width: 50%;
     margin: auto;
     margin-top: -50px;
 }
 
 .text-table-typography{
-    border: 1px solid #084870;
+    border: 1px solid #21287A;
     width: 50%;
     margin: auto;
     margin-top: -40px ;
 }
 
 .text-table-typography td, .text-table-color td{
-    border: 1px solid tomato
+    border: 1px solid #6F824B;
 }
 
 h2{
@@ -125,27 +126,31 @@ h2{
 }
 
 .color1{
-    background-color: #BAB133;
+    background-color: #6F824B;
 }
 
 .color2{
-    background-color: #084870;
+    background-color: #90AA6A;
 }
 
 .color3{
-    background-color:  rgb(9, 63, 9);
+    background-color:  #21287A;
 }
 
 .color4{
-    background-color: #b95cb385;
+    background-color: #4BBB87;
 }
 
 .color5{
+    background-color: #D3E3BF;
+}
+
+.color6{
     background-color: black;
     color: white;
 }
 
-.color6{
+.color7{
     background-color: white;
     color: black;
 }
@@ -155,8 +160,8 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #BAB133;
-    color:rgb(9, 63, 9);
+    background-color: #90AA6A;
+    color:black;
     border-radius: 10px 10px;
     padding: 1em;
     margin:20px;

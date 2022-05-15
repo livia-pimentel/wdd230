@@ -1,0 +1,136 @@
+@media only screen and (min-width: 64rem){
+    nav ul li a{
+        padding: .5rem 1rem;
+        font-size: 28px;
+    }
+
+    .logo-header img{
+        width: 50%;
+        padding: 1em;
+    }
+
+    .logo-header h1{
+        font-size: 2.8rem;
+    }
+
+    .content-header{
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        max-height: 230px;
+
+    }
+
+
+    .social{
+        margin-right: 20px;
+        width: 30%;
+    }
+
+    .date{
+        font-size: 26px;
+    }
+  
+    .content-main{
+        max-width: 100%;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 20% 50% 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .event{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 22px;
+    }
+    
+    .weather{
+        grid-column: 1;
+        grid-row: 2;
+        font-size: 22px;
+    }
+    
+    .join{
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 22px;
+    }
+    
+    .hero{
+        grid-column: 2;
+        grid-row: 1/3;
+        padding: 1em;
+        height: auto;
+        font-family: 'Merriweather Sans', sans-serif;
+        background-color:  #D3E3BF;
+        font-size: 22px;
+    }
+    
+    .news{
+        grid-column: 2;
+        grid-row: 3/4;
+        padding: 1em;
+        font-family: 'Merriweather Sans', sans-serif;
+        background-color:  #D3E3BF;
+        font-size: 22px;
+    }
+    
+    .spotlight{
+        grid-column: 3;
+        grid-row: 1/4;
+        padding: 1em;
+        font-family: 'Merriweather Sans', sans-serif;
+        background-color: #D3E3BF;
+    }
+    
+    .spotlight div{
+        border: 1px solid black;
+        margin: 2px;
+        height: 220px;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 22px;
+    }
+
+    .logo-footer img{
+        width: 45%;
+    }
+    
+    .headings-footer{
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .content-footer{
+        max-height: 200px;
+    }
+
+    .headings-footer{
+        font-size: 2.2rem;
+    }
+
+    .paragraph-address{
+        font-size: 1.3rem
+    }
+    .logo-footer{
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .contact{
+        margin-right: 20px;
+        width: 30%;
+        font-size: 1.3rem;
+    }
+    
+    .last{
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+
+}
