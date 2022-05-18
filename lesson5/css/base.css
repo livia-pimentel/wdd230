@@ -1,0 +1,74 @@
+
+body {
+    background-color: rgba(127, 255, 212, 0.521);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+	font-size: 2rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+main {
+	margin: 0.5rem auto;
+	border: 1px solid rgb(43, 1, 30);
+	padding: 1rem;
+	background-color: rgba(225, 176, 231, 0.685);
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 60%;
+}
+
+
+input,
+button {
+	padding: .7rem;
+	margin-left: 1rem;
+	font-size: 20px;
+}
+
+input {
+	width: 200px;
+
+}
+
+label {
+	font-size: 1.5rem;
+}
+.listcontainer {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: .5rem;
+	padding: 0.5rem;
+}
+
+.list {
+	margin: 0.2rem;
+}
+
+ul {
+	margin: 1rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+}
+
+
