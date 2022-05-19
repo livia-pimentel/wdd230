@@ -39,6 +39,10 @@
         width: 30%;
     }
 
+    h2{
+        font-size: 1.3em;
+    }
+
     .content-main{
         margin: 1rem;
         display: grid;
@@ -82,11 +86,8 @@
         position: relative;
     }
 
-    .hero h2, .news h2{
-        font-size: 1.6em;
-    }
-
     .hero h2{
+        font-size: 1.6em;
         position: absolute;
 	    top: 60px;
     }
@@ -95,12 +96,10 @@
         position: absolute;
 	    bottom: 45px;
 	    right: 30px;
-        font-size: 1.6rem;
+
     }
 
-    p{
-        font-size: 19px;
-    }
+
     
     .news{
         grid-column: 2;
@@ -110,9 +109,7 @@
         background-color:  #D3E3BF;
     }
 
-    .spotlight h2, .event h2, .weather h2, .join h2 {
-        font-size: 1.2em;
-    }
+
     
     .spotlight{
         grid-column: 3;
@@ -126,7 +123,6 @@
         display: flex;
         border: 1px solid black;
         width: 100%;
-        height: 400px;
         margin: 2px;
         font-family: 'Merriweather Sans', sans-serif;  
     }

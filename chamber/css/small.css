@@ -8,6 +8,10 @@ h1, h2, h3{
     text-align: center;
 }
 
+h2{
+    font-size: 1em;
+}
+
 
 p{
     font-family: 'Merriweather Sans', sans-serif;
@@ -142,7 +146,6 @@ nav ul.open{
 }
 
 .event, .weather, .join{
-    height: auto;
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -155,15 +158,13 @@ nav ul.open{
 
 
 .weather img{
-    max-width: 6rem;
-    padding: 0px 1em;
+    padding: 0.5em;
     align-self: center;
 }
 
 .weather p{
     text-align: center;
     padding: 0.5em;
-    font-size: .8em;
 }
 
 .hero{
