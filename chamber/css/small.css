@@ -3,7 +3,6 @@ html{
     margin: auto;
 }
 
-
 body{
     padding: 20px;
 }
@@ -23,7 +22,7 @@ p{
     line-height: 1.2em;
     padding: 0.5em;
     margin: 0.5em;
-    font-size: 16.5px;
+    font-size: 16px;
 }
 
 a{
@@ -72,8 +71,6 @@ a{
     background-color: #6F824B;
     color: black;
 }
-
-
 
 nav button{
     margin: .2rem 2vw;
@@ -137,10 +134,7 @@ nav ul.open{
     display: block;
 }
 
-
 .content-main{
-
-    max-width: 100%;
     margin: 1rem;
     display: block;
 }
@@ -160,7 +154,6 @@ nav ul.open{
     margin: 10px;
     
 }
-
 
 .weather img{
     padding: 0.5em;
@@ -232,16 +225,14 @@ nav ul.open{
     font-family: 'Merriweather Sans', sans-serif;
     background-color:  #D3E3BF;
     border-radius: 10px 10px;
-
 }
 
 
-.spotlight_1, .spotlight_2, .spotlight_3{
+.spot_1, .spot_2, .spot_3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px;
 }
 
 

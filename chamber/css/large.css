@@ -39,17 +39,12 @@
         width: 30%;
     }
 
-    h2{
-        font-size: 1.3em;
-    }
-
     .content-main{
         margin: 1rem;
         display: grid;
         grid-template-columns: 20% 50% 1fr;
-        grid-template-rows: repeat(3, 1fr);
-        gap: 10px;
-        
+        grid-auto-rows: minmax(100px, auto);
+        gap: 5px;        
     }
 
 
@@ -67,9 +62,8 @@
         grid-row: 2;
     }
 
-    .weather img{
-        max-width: 7rem;
-        align-self: center;
+    .weather p{
+        text-align: center;
     }
     
     .join{
@@ -87,15 +81,15 @@
     }
 
     .hero h2{
-        font-size: 1.8em;
+        font-size: 3em;
         position: absolute;
-	    top: 60px;
+	    top: 160px;
     }
 
     .hero a{
         position: absolute;
-	    bottom: 45px;
-	    right: 30px;
+	    bottom: 160px;
+
 
     }
 
@@ -107,24 +101,28 @@
         padding: 1em;
         font-family: 'Merriweather Sans', sans-serif;
         background-color:  #D3E3BF;
+        
     }
 
-
-    
     .spotlight{
-        grid-column: 3;
+        grid-column: 3/5;
         grid-row: 1/4;
+        display: grid;
         padding: 1em;
         font-family: 'Merriweather Sans', sans-serif;
         background-color: #D3E3BF;
+        
+        
     }
-    
-    .spotlight div{
-        display: flex;
-        border: 1px solid black;
-        width: 100%;
-        margin: 2px;
-        font-family: 'Merriweather Sans', sans-serif;  
+
+    .spotlight{
+        display: grid;
+        grid-template-columns: 1fr
+    }
+
+    .spot_1, .spot_2, .spot_3{
+        padding: 2em;
+        margin: 10px;
     }
 
     .logo-footer img{
