@@ -83,7 +83,7 @@
     }
 
     .hero h2, .news h2{
-        font-size: 2.3em;
+        font-size: 1.6em;
     }
 
     .hero h2{
@@ -95,7 +95,7 @@
         position: absolute;
 	    bottom: 45px;
 	    right: 30px;
-        font-size: 2.3rem;
+        font-size: 1.6rem;
     }
 
     p{
@@ -111,7 +111,7 @@
     }
 
     .spotlight h2, .event h2, .weather h2, .join h2 {
-        font-size: 1.8em;
+        font-size: 1.2em;
     }
     
     .spotlight{
