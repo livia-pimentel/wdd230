@@ -144,7 +144,7 @@ nav ul.open{
     transition: 0.5s;
 }
 
-.event, .weather, .join{
+.event, .join{
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -155,9 +155,17 @@ nav ul.open{
     
 }
 
+.weather{
+    flex-direction: column;
+    padding: 1em;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #D3E3BF;
+    border-radius: 10px 10px;
+    margin: 10px;
+}
+
 .weather img{
     padding: 0.5em;
-    align-self: center;
 }
 
 .weather p{
@@ -279,7 +287,8 @@ section a{
     margin: 5px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     padding: 1rem;
     border-radius: 10px;
 }
+
