@@ -5,7 +5,7 @@ body{
     background-color: rgb(208, 211, 212);
     font-size: 0.6em;
     line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     
 }
 
@@ -26,17 +26,19 @@ header img{
 }
 
 h1{
-    color: rgb(3, 40, 46);
+    color: rgb(5, 28, 105);
     padding: 0.5em;
     text-shadow: 10px 10px 10px black;
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.9em;
 }
 
 h2{
-    color: black;
+    color: rgba(0, 0, 0, 0.842);
     padding: 1em;
     text-shadow: 10px 10px 10px black;
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
 }
 
 nav{
@@ -52,13 +54,13 @@ footer{
     background-color: rgba(21, 110, 21, 0.61);
     border-radius: 10px;
     padding: 1em;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer-paragraph{
     grid-column: 1/4;
     text-align: center;
-    color: black;
+    color: rgba(0, 0, 0, 0.842);
     margin: auto;
 }
 
