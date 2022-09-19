@@ -1,9 +1,14 @@
 @media only screen and (min-width: 32.5em){
+    body{
+        background-color: rgb(210, 226, 221);
+    }
+
     header{
         display: grid;
         grid-template-columns: 300px 1fr;
         padding: 1em;
         background-color: rgb(11, 107, 151);
+        box-shadow: 10px 10px 10px rgba(78, 77, 77, 0.356);
     }
 
     h1{
