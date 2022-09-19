@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em){
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header{
+        background-color: rgb(160, 38, 38);
+        color: white;
+    }
+
+    .first-principle, .second-principle, .third-principle{
+        background-color: rgba(245, 201, 195, 0.904);
+    }
+
+    h3{
+        background-color: rgb(245, 131, 85);
+    }
+
+    footer{
+        background-color: rgb(160, 38, 38);
+        color: white;
+    }
+}
