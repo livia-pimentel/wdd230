@@ -13,6 +13,11 @@
         background-color: rgba(245, 201, 195, 0.904);
     }
 
+    .third-principle{
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
     h3{
         background-color: rgb(245, 131, 85);
     }

@@ -17,6 +17,11 @@
         background-color: rgb(145, 194, 194);
     }
 
+    .third-principle{
+        grid-column: 3/3;
+        grid-row: 1;
+    }
+
     h3{
         background-color: rgb(23, 8, 158);
         color: white;
