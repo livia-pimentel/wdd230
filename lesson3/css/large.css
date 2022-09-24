@@ -1,0 +1,23 @@
+@media only screen and (min-width: 65em){
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul a{
+        padding:1em;
+    }
+    #content-home{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #content-audience{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .scenarios{
+        grid-column: 3/3;
+        grid-row: 1;
+    }
+}

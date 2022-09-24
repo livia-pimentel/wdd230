@@ -1,0 +1,188 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+#content-home, #content-audience, #content-color, #content-typography{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;
+    margin: 20px;
+    padding: 1em;
+}
+
+
+
+header, footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #90AA6A;
+    margin: 20px;
+    padding: 1em;
+    border-radius: 10px 10px;
+
+}
+
+img{
+    max-width: 90%;
+    margin: 0;
+}
+
+h1, footer{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header h1{
+    color: #21287A;
+}
+
+nav ul{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    background-color: #657749;
+    border-radius: 10px 10px;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #D3E3BF;
+    padding: 1em;
+    font-size: 18px;
+}
+
+nav a:hover{
+    background-color: #4BBB87;
+    color: black;
+    margin-right: 20px;
+}
+
+#content-home, #content-audience, #content-color, #content-typography{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+    max-width: 100%;
+    margin: 15px;
+}
+
+div{
+    display: block;
+    border-radius: 10px 10px;
+}
+
+.purpose-site, .logo, .target-audience, .personas, .scenarios, #content-color, #content-typography, .domain-name{
+    overflow: hidden;
+    background-color: #D3E3BF;
+    padding: 1em;
+}
+
+.purpose-site, .logo, #content-color, .target-audience, .domain-name{
+    text-align: center;
+}
+
+.purpose-site, .logo img, .domain-name{
+    max-width: 90%;
+}
+
+.purpose-site p{
+    text-align: left;
+    font-size: 17px;
+}
+
+.personas h2, .scenarios h2{
+    text-align: center;
+}
+
+.personas img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+
+.text-table-color {
+    border: 1px solid #21287A;
+    width: 50%;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.text-table-typography{
+    border: 1px solid #21287A;
+    width: 50%;
+    margin: auto;
+    margin-top: -40px ;
+}
+
+.text-table-typography td, .text-table-color td{
+    border: 1px solid #6F824B;
+}
+
+h2{
+    color:#084870;
+}
+
+.color1{
+    background-color: #6F824B;
+}
+
+.color2{
+    background-color: #90AA6A;
+}
+
+.color3{
+    background-color:  #21287A;
+}
+
+.color4{
+    background-color: #4BBB87;
+}
+
+.color5{
+    background-color: #D3E3BF;
+}
+
+.color6{
+    background-color: black;
+    color: white;
+}
+
+.color7{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #90AA6A;
+    color:black;
+    border-radius: 10px 10px;
+    padding: 1em;
+    margin:20px;
+}
+
+.footer-paragraph {
+    grid-column: 1/4;
+    text-align: center;
+    margin: auto;
+}
+
+.update {
+    grid-column: 1/4;
+    text-align: center;
+    margin: auto;
+}
+
+#content-typography{
+    text-align: center;
+}
+
+
+
+
