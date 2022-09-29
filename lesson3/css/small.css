@@ -10,7 +10,8 @@ font-family: 'Open Sans', sans-serif;
     padding: 1em;
 }
 
-
+/* header #F1FF75 
+nav #9E8544 */
 
 header, footer{
     display: flex;
@@ -42,7 +43,7 @@ nav ul{
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     margin: 20px;
-    background-color: #657749;
+    background-color: #90AA6A;
     border-radius: 10px 10px;
 }
 
@@ -126,11 +127,11 @@ h2{
 }
 
 .color1{
-    background-color: #6F824B;
+    background-color: #D0D666;
 }
 
 .color2{
-    background-color: #90AA6A;
+    background-color: #9E8544;
 }
 
 .color3{
