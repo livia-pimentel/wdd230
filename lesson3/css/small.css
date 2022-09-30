@@ -10,9 +10,6 @@ font-family: 'Open Sans', sans-serif;
     padding: 1em;
 }
 
-/* header #F1FF75 
-nav #9E8544 */
-
 header, footer{
     display: flex;
     flex-flow: column;
@@ -36,14 +33,14 @@ h1, footer{
 }
 
 header h1{
-    color: #21287A;
+   color: #21287A;
 }
 
 nav ul{
     list-style: none;
     font-family: 'Open Sans', sans-serif;
     margin: 20px;
-    background-color: #90AA6A;
+    background-color: #90AA6A; 
     border-radius: 10px 10px;
 }
 
@@ -127,11 +124,11 @@ h2{
 }
 
 .color1{
-    background-color: #D0D666;
+    background-color: #9CD484;
 }
 
 .color2{
-    background-color: #9E8544;
+    background-color: #78a864;
 }
 
 .color3{
@@ -160,7 +157,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #90AA6A;
     color:black;
     border-radius: 10px 10px;
