@@ -10,6 +10,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .domain-name{
+        grid-column: 3/3;
+        grid-row: 1;
+    }
     #content-audience{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
