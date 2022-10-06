@@ -1,18 +1,29 @@
 @media only screen and (min-width: 35rem){
 
     .logo-header img{
-        width: 120px;
+        width: 200px;
         margin: 5px;
     }
 
-
-    .container-header{
-        justify-content: space-between;
+    .headings h1{
+        font-size: 2rem;
+        
     }
 
-    .headings{
-        justify-self: flex-start;
+    .headings p{
+        font-size: 1rem;
     }
+
+    .icons{
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    nav button{
+        font-size: 2rem;
+    }
+
+
 
     .page1{
         order: -3;
@@ -34,9 +45,10 @@
         align-content: center;
         height: 200px;
         order: 1;
+        border: 1px solid rgba(0, 0, 0, 0.5);
     }
     
-        .teste{
+    .teste{
         display: flex;
         flex-direction: row;
         order: 2;
@@ -55,7 +67,8 @@
     .container-footer{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
+        
     }
 
     .brand-footer{
@@ -63,6 +76,12 @@
         flex-direction: column;
         justify-content: center;
         text-align: start;
+        padding: 5px;
+    }
+
+    .contact{
+        margin-left: 80px;
+        padding: 5px;
     }
 
     .baseboard{

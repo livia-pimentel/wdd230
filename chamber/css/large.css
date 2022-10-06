@@ -1,4 +1,18 @@
 @media only screen and (min-width: 64rem) {
+    .logo-header img{
+        width: 130px;
+        margin: 15px;
+    }
+
+    .headings h1{
+        font-size: 2.5rem;
+        
+    }
+
+    .headings p{
+        font-size: 1.1rem;
+    }
+
     nav button{
         display: none;
         border-top: none;
@@ -18,19 +32,23 @@
 
     nav ul li a{
         border-top: none;
+        font-size: 1.2rem;
     }
 
     .icons{
         order: 1;
+        margin: 10px;
     }
 
     .date{
         order: 2;
+        font-size: 1rem;
     }
    
-    .container-main{
+    .container-main{margin: 30px;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 5px;
     }
 
     .page1{
@@ -64,6 +82,9 @@
     .join{
         grid-column: 1;
         grid-row: 3;
+        height: auto;
+        margin: 5px;
+        padding: 5px;
     }
 
     .spotlight{
@@ -78,7 +99,7 @@
         margin: 10px;
         height: 90%;
         width: auto;
-        border: 1px solid black;
+        border: 1px solid rgba(0, 0, 0, 0.5);
         ;
     }
 
@@ -89,21 +110,14 @@
 
 
 /* Footer */
-    .container-footer{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-    }
 
-    .logo-footer{
-        margin-left: 100px;
-    }
-
-    .brand-footer{
-        margin-right: -100px ;
+    .logo-footer img{
+        width: 150px;
     }
 
     .contact{
-        grid-column: 4;
+        margin-right: 100px;
     }
+
 
 }
