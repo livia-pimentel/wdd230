@@ -27,65 +27,83 @@
     .date{
         order: 2;
     }
-
+   
     .container-main{
-        flex-direction: column;   
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
     }
 
     .page1{
-        height: 400px;
-    }
-
-    .page1, .news{
-        flex-direction: column;
-        align-self: center;
-        width: 40%;
-        order: -1;
-    }
-
-
-    .teste{
-        flex-direction: column;
-        order: -2;
-    }
-
-    .event, .weather, .join{
-        width: 25%;
-    }
-
-    .join{
-        flex-direction: column;
-        order: -3;
-    }
-
-    .spotlight{
-        flex-direction: column;
-        align-self: flex-end;
-        order: 2;
-        width: 25%;
+        grid-column: 2;
+        grid-row: 1/2;
         height: auto;
     }
 
+    .news{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .teste{
+        display: grid;
+    }
+
+    .event{
+        grid-column: 1;
+        grid-row: 1;
+        width: auto;
+        
+    }
+
+    .weather{
+        grid-column: 1;
+        grid-row: 2;
+        width: auto;
+    }
+
+    .join{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .spotlight{
+        display: grid;
+        height: auto;
+        grid-column: 3;
+        grid-row: 1/4;
+    }
 
     .spotlight3{
-        display: flex;
+        display: grid;
         margin: 10px;
         height: 90%;
+        width: auto;
         border: 1px solid black;
+        ;
     }
 
-    .spotlight1, .spotlight2, .spotlight3{
-        width: 90%;
+    .spotlight1, .spotlight2{
+        width: auto;
     }
-    
 
 
 
 /* Footer */
     .container-footer{
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
     }
 
+    .logo-footer{
+        margin-left: 100px;
+    }
 
+    .brand-footer{
+        margin-right: -100px ;
+    }
+
+    .contact{
+        grid-column: 4;
+    }
 
 }
