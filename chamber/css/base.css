@@ -45,7 +45,8 @@ body{
 .headings p{
     font-size: 0.8rem;
     font-style: italic;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -189,7 +190,8 @@ footer{
     margin-top: 0;
     font-size: 1.3rem;
     font-style: italic;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .baseboard{
