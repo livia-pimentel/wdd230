@@ -25,7 +25,7 @@
 
 
 
-    .page1{
+    .hero-page{
         order: -3;
     }
 
@@ -48,7 +48,7 @@
         border: 1px solid rgba(0, 0, 0, 0.5);
     }
     
-    .teste{
+    .group{
         display: flex;
         flex-direction: row;
         order: 2;

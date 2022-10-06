@@ -51,7 +51,7 @@
         grid-gap: 5px;
     }
 
-    .page1{
+    .hero-page{
         grid-column: 2;
         grid-row: 1/2;
         height: auto;
@@ -62,7 +62,7 @@
         grid-row: 3;
     }
 
-    .teste{
+    .group{
         display: grid;
     }
 
