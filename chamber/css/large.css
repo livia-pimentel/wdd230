@@ -111,12 +111,29 @@
 
 /* Footer */
 
+    .container-footer{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap: 5px
+    }
+
+
+
     .logo-footer img{
+        margin-left: 5rem;
+        margin-top: 1rem;
         width: 150px;
+        grid-column: 1;
+    }
+
+    .brand-footer{
+        margin: 1.5rem;
+        grid-column: 2;
     }
 
     .contact{
         margin-right: 100px;
+        grid-column: 3;
     }
 
 
