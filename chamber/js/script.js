@@ -20,7 +20,7 @@ document.querySelector('#lastModified').textContent = `Last Modification: ${docu
 //Banner 
 
 let bannerDay = new Date().getDay();
-console.log(bannerDay)
+// console.log(bannerDay)
 
 const banner = document.querySelector('#banner');
 if (bannerDay === 1 || bannerDay === 2){
