@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -38,10 +39,10 @@
             <nav>
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primaryNav">
-                    <li><a href="#">Discover</a></li>
-                    <li><a href="#">Directory</a></li>
-                    <li class="active"><a href="#">Join</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <div class="date"></div>
@@ -49,33 +50,58 @@
     </header>
 
     <main>
+        <div id="banner">🤝🏼 Come join us for the Camaçari Chamber of Commerce meet and greet <strong>Wednesday at 7:00 p.m.</strong><button id="close">X</button></div>
         <div class="container-main">
             <div class="hero-page">
-                <p> Hero with site name and call to action</p>
+                <h1 class="hero-page-1">Welcome to Camaçari</h1>
+                <picture>
+                    <img src="images/hero.png" alt="Image The Activity - Chamber Commerce">
+                </picture>
+                <a class="hero-page-2" href="join.html">Join the Chamber</a>
             </div>
             <div class="group">
                 <div class="event">
-                    <p>Event</p>
+                    <h2>56th National Convention</h2>
+                    <p>The event, the largest and most traditional in the commerce and services sector in the country <br><strong>more infor...</strong></p>
                 </div>
                 <div class="weather">
-                    <p>Weather</p>
+                    <section>
+                        <h2>Weather</h2>
+                        <span id='weather-img'><i class="fa-solid fa-cloud"></i></span>
+                        <span id="degrees">24°C</span><br />
+                        <h3>Partly Cloudy</h3>
+                        <hr>
+                        <span id="speed">Wind Speed: 2.5 Km/h</span><br>
+                        <span id="Wind">Wind Chill:  N/A</span>
+                    </section>
                 </div>
             </div>
-            <div class="news">
-                <p>News Release</p>
-            </div>
+            <article class="news">
+                <h2>News Release</h2>
+                <p>An action of Public Policies 4.0 (PP 4.0), an agreement signed between the National Confederation of Shopkeepers (CNDL) and the Brazilian Support Service for Micro and Small Enterprises (Sebrae). The project unites entities and members of the CNDL System and representatives of the public power in discussions around essential issues for the development of the retail sector in the country.</p>
+            </article>
             <div class="join">
-                <p>Join</p>
+                <p>Discover how to be part of the Camaçari Chamer of Commerce and see how we can help your business grow.</p>
+                <a href="join.html">Join Us</a>
             </div>
             <div class="spotlight">
                 <div class="spotlight1">
-                    <p>spotlight1</p>
+                    <h2>Recycling</h2>
+                    <i class="fa-solid fa-recycle"></i>
+                    <p>Working for a more sustainable city.</p>
+                    <p><b>Phone:</b>+55 71 3017-2121</p>
                 </div>
                 <div class="spotlight2">
-                    <p>spotlight2</p>
+                    <h2>Transform Camaçari</h2>
+                    <i class="fa-solid fa-user-pen"></i>
+                    <p>An after-school program - training new entrepreneurs</p>
+                    <p><b>Phone:</b>+55 71 3017-2121</p>
                 </div>
                 <div class="spotlight3">
-                    <p>spotlight3</p>
+                    <h2>Build A Green City</h2>
+                    <i class="fa-solid fa-tree-city"></i>
+                    <p>Distribution of more than 3 thousand plant seedlings.</p>
+                    <p><b>Phone:</b>+55 71 3017-2121</p>
                 </div>
             </div>
         </div>
