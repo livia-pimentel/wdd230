@@ -19,12 +19,14 @@ document.querySelector('#lastModified').textContent = `Last Modification: ${docu
 
 //Banner 
 
-const bannerDay = new Date().getDay();
+let bannerDay = new Date().getDay();
 console.log(bannerDay)
 
 const banner = document.querySelector('#banner');
-if (bannerDay === 1 || bannerDay ===2){
+if (bannerDay === 1 || bannerDay === 2){
     banner.style.display = 'block';
+} else{
+    banner.style.display = 'none';
 }
 
 const close = document.querySelector('#close');
