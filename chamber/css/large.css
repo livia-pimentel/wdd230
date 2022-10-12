@@ -48,7 +48,7 @@
     .container-main{margin: 30px;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-gap: 5px;
+        grid-gap: 1px;
     }
 
     .hero-page{
@@ -73,6 +73,7 @@
     .news{
         grid-column: 2;
         grid-row: 3;
+        height: auto;
     }
 
     .group{
@@ -96,8 +97,7 @@
         grid-column: 1;
         grid-row: 3;
         height: auto;
-        margin: 5px;
-        padding: 5px;
+        height: 230px;
     }
 
     .spotlight{
@@ -120,6 +120,26 @@
         width: auto;
     }
 
+    .fa-cloud, .fa-recycle, .fa-user-pen, .fa-tree-city{
+        font-size: 35px;
+    }
+
+    .fa-tree-city{
+        color: green
+    }
+
+    .join a{
+        width: 80%;
+        margin: 0;
+    }
+
+    .join p{
+        bottom: 13px;
+    }
+
+    .news p{
+        margin-top: 10px;
+    }
 
 
 /* Footer */
@@ -129,8 +149,6 @@
     grid-template-columns: 200px 1fr 1fr;
     grid-gap: 5px
     }
-
-
 
     .logo-footer img{
         margin-left: 5rem;
@@ -148,6 +166,4 @@
         margin-right: 100px;
         grid-column: 3;
     }
-
-
 }

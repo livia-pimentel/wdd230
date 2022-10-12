@@ -19,10 +19,11 @@ document.querySelector('#lastModified').textContent = `Last Modification: ${docu
 
 //Banner 
 
-let day = new Date().getDay();
+const bannerDay = new Date().getDay();
+console.log(bannerDay)
 
 const banner = document.querySelector('#banner');
-if (day === 1 || day ===2){
+if (bannerDay === 1 || bannerDay ===2){
     banner.style.display = 'block';
 }
 
@@ -32,9 +33,9 @@ close.addEventListener('click', () => {
     banner.style.display = 'none';
 })
 
-//Weather
-const place = document.querySelector('#place');
-const degree = document.querySelector('#degree');
-const img = document.querySelector('#weather-img');
-const wind = document.querySelector('#wind');
-const weather = document.querySelector('.weather');
+// //Weather
+// const place = document.querySelector('#place');
+// const degree = document.querySelector('#degree');
+// const img = document.querySelector('#weather-img');
+// const wind = document.querySelector('#wind');
+// const weather = document.querySelector('.weather');

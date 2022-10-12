@@ -151,11 +151,17 @@ nav ul.open{
 
 .hero-page, .event, .weather, .news{
     background-color: #eee;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     align-content: center;
     height: 200px;
     border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.weather{
+    width: 70%;  
+    margin-left: 50px;
+    margin-right: 40px;
 }
 
 .event, .weather, .news{
@@ -204,7 +210,7 @@ nav ul.open{
     width: 200px;
     background-color: #8cda72;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(53, 53, 184) ;
+    box-shadow: 5px 5px 5px rgb(53, 53, 184);
     color: rgb(53, 53, 184);
 }
 
@@ -244,6 +250,25 @@ nav ul.open{
     display: none;
 }
 
+h2{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(53, 53, 184);
+}
+
+.fa-cloud, .fa-recycle, .fa-user-pen{
+    font-size: 25px;
+}
+
+.fa-cloud{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.fa-recycle{
+    color: #06ac06b0;
+}
+
+
 /* Footer */
 
 footer{
@@ -258,6 +283,11 @@ footer{
     
 }
 
+
+.phone{
+    font-size: 12.5px;
+    margin-top: 5px;
+}
 
 .title-footer h1{
     margin: 0;

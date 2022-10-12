@@ -27,7 +27,17 @@
         font-size: 2rem;
     }
 
+    p{
+        font-size: 17px;
+    }
 
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    .phone{
+        font-size: 14px;
+    }
 
     .hero-page{
         order: -3;
@@ -40,6 +50,11 @@
     .hero-page-2{
         font-size: 1.4rem;
         width: 250px;
+    }
+
+    .weather{
+        width: 100%;
+        margin: 10px;
     }
 
     .news{
@@ -70,14 +85,16 @@
 
     .join p{
         position: absolute;
-        bottom: 25px;
-
+        text-align: center;
+        bottom: 40px; 
+        right: 20px;
+        left: 20px;
     }
     
     .join a{
         text-decoration: none;
         position: absolute;
-        width: 80%;
+        width: 90%;
         height: auto;
         padding: 1rem;
         background-color: #8cda72;
@@ -86,9 +103,10 @@
         color: rgb(53, 53, 184);
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         top: 20px;
-        left: 10px; 
+        left: 15px; 
         right: 10px;
         z-index: 1;
+        font-size: 1.5rem;
     }
     
     .group{
@@ -100,6 +118,10 @@
 
     .event{
         width: 60%;
+    }
+
+    .event p{
+        margin-top: 40px;
     }
 
     .weather{
