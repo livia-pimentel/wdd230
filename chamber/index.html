@@ -51,11 +51,21 @@
 
     <main>
         <div id="banner">🤝🏼 Come join us for the United Traders of Camaçari meet and greet <strong>Wednesday at 7:00 p.m. </strong><button id="close">x</button></div>
+        <!-- <div id="banner"></div> -->
         <div class="container-main">
             <div class="hero-page">
                 <h1 class="hero-page-1">Welcome to Camaçari</h1>
+                <!-- <picture>
+                    <source media="(max-width: 34.9rem)" srcset="images/hero_small.avif">
+                    <source media="(max-width: 63.9rem)" srcset="images/hero_medium.avif">
+                    <source media="(min-width: 64rem)" srcset="images/hero_large.avif">
+                    <img src="images/hero.avif" alt="Image The Activity - Chamber Commerce">
+                </picture> -->
                 <picture>
-                    <img src="images/hero.png" alt="Image The Activity - Chamber Commerce">
+                    <source media="(max-width: 34.9rem)" srcset="images/wdd230-org-small.avif">
+                    <source media="(max-width: 63.9rem)" srcset="images/wdd230-org-medium.avif">
+                    <source media="(min-width: 64rem)" srcset="images/wdd230-org-large.avif">
+                    <img src="images/wdd230-org.avif" alt="Activity - Responsive Image ">
                 </picture>
                 <a class="hero-page-2" href="join.html">Join the Chamber</a>
             </div>
@@ -68,11 +78,11 @@
                     <section>
                         <h2>Weather</h2>
                         <span id='weather-img'><i class="fa-solid fa-cloud"></i></span>
-                        <span id="degrees">24°C</span><br />
+                        <span id="degrees">9</span>°C<br/>
                         <h3>Partly Cloudy</h3>
                         <hr>
-                        <span id="speed">Wind Speed: 2.5 Km/h</span><br>
-                        <span id="Wind">Wind Chill:  N/A</span>
+                        Wind Speed: <span id="speed">6</span> Km/h<br>
+                        Wind Chill: <span id="wind"></span>
                     </section>
                 </div>
             </div>
@@ -102,7 +112,8 @@
                 <div class="spotlight3">
                     <h2>Build A Green City</h2>
                     <i class="fa-solid fa-tree-city"></i>
-                    <p>Distribution of more than 3 thousand plant seedlings.</p><hr>
+                    <p>Distribution of more than 3 thousand plant seedlings.</p>
+                    <hr>
                     <p class="phone"><b>Phone:</b>+55 71 3017-2121</p>
                 </div>
             </div>
@@ -143,6 +154,7 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>

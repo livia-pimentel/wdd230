@@ -59,7 +59,8 @@
     }
 
     .hero-page-1{
-        top: 40px;
+        /* top: 40px; */
+        top: 60px;
         left: 20px;
         font-size: 2rem;
     }
