@@ -77,7 +77,6 @@
         align-content: center;
         height: 200px;
         border: 1px solid rgba(0, 0, 0, 0.5);
-        box-shadow: 2px 2px 2px 2px #06ac06b0;
         text-align: center;
         position: relative;
         
@@ -174,6 +173,27 @@
 
     #lastModified{
         align-self: center;
+    }
+
+    /* Discover Page*/
+    .city_img, .build_img, .tamar_img, .polo-img, .beach_img{
+        width: 55%;
+    }
+
+    .city_img:hover, .tamar_img:hover{
+        box-shadow: 0 0 50px #06ac06b0;
+    }
+    
+    .polo-img:hover{
+        border-radius: 15px 150px;
+    }
+    
+    .build_img:hover{
+        filter: blur(4px)
+    }
+    
+    .beach_img:hover{
+        filter: saturate(50%)
     }
 
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Loading of Images</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <div class="lazy">
+        <h1>Progressive Loading of Images</h1>
+        <Picture>
+            <img src="images/placeholder.png" data-src="images/dog.avif" alt="Dog" loading="lazy">
+        </Picture>
+        <Picture>
+            <img class="lazy" src="images/placeholder.png" data-src="images/coconut_tree.avif" alt="Coconut Tree" loading="lazy">
+        </Picture>
+        <Picture>
+            <img src="images/placeholder.png" data-src="images/parakeet.avif" alt="Parakeet" loading="lazy">
+        </Picture>
+        <Picture>
+            <img rc="images/placeholder.png" data-src="images/ship.avif" alt="Ship" loading="lazy">
+        </Picture>
+        <Picture>
+            <img src="images/placeholder.png" data-src="images/tower.avif" alt="Tower" loading="lazy">
+        </Picture>
+        <Picture>
+            <img src="images/placeholder.png" data-src="images/tree.avif" alt="Tree" loading="lazy">
+        </Picture>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

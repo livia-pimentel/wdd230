@@ -57,11 +57,3 @@ close.addEventListener('click', () => {
 // }
 
 
-
-// //Weather
-// const place = document.querySelector('#place');
-// const degree = document.querySelector('#degree');
-// const img = document.querySelector('#weather-img');
-// const wind = document.querySelector('#wind');
-// const weather = document.querySelector('.weather');
-
