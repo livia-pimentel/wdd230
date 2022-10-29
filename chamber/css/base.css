@@ -328,18 +328,31 @@ footer{
 .container-discover{
     display: flex;
     flex-wrap: wrap;
+    margin: 2em;
+}
+
+.storage{
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+}
+
+.label{
+    font-weight: bold;
 }
 
 .city, .polo, .build, .beach, .tamar{
-    border: 1px solid black;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     margin-top: 10px;
+    background-color:#eee;
 }
 
 .city_img, .build_img, .tamar_img, .polo-img, .beach_img{
-    width: 45%;
+    width: 40%;
     margin: 15px;
 }
-.city_img, .build_img,  .tamar_img{
+.city_img, .build_img, .tamar_img{
     float: left;
 }
 
@@ -350,6 +363,12 @@ footer{
 .city_text, .build_text, .tamar_text, .polo_text, .beach_text{
     margin: 10px;
 }
+
+.city_text h1, .build_text h1, .tamar_text h1, .polo_text h1, .beach_text h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 
 

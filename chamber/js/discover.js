@@ -25,7 +25,7 @@ const imagesToLoad = document.querySelectorAll('img[data-src]');
 //optional parameters being set for the IntersectionObserver
 const imgOptions = {
     threshold: 1,
-    rootMargin: '0px 0px 50px 0px'
+    rootMargin: '0px 0px 10px 0px'
 };
 
 const loadImages = (image) => {
@@ -53,3 +53,7 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
     });
   }
+
+
+// Last Modification
+document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`

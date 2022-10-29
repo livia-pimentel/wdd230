@@ -176,11 +176,15 @@
     }
 
     /* Discover Page*/
-    .city_img, .build_img, .tamar_img, .polo-img, .beach_img{
-        width: 55%;
+    .label{
+        font-size: 20px;
     }
 
-    .city_img:hover, .tamar_img:hover{
+    .city_img, .build_img, .tamar_img, .polo-img, .beach_img{
+        width: 45%;
+    }
+
+    .city_img:hover{
         box-shadow: 0 0 50px #06ac06b0;
     }
     
@@ -189,11 +193,16 @@
     }
     
     .build_img:hover{
-        filter: blur(4px)
+        filter: blur(0.3em)
     }
     
     .beach_img:hover{
-        filter: saturate(50%)
+        filter: saturate(40%)
+    }
+
+    .tamar_img:hover{
+        border-radius: 100px; width:45%; 
+        margin: 2em;
     }
 
 }

@@ -170,4 +170,38 @@
 
     /* Discover Page*/
 
+    .city, .polo, .build, .beach, .tamar{
+        position: relative;
+        width: 100%;
+    }
+
+
+    .city_img, .build_img, .tamar_img, .polo-img, .beach_img{
+        width: 50%;
+    }
+
+    .city_text{
+        margin: 10px;
+        position: absolute;  
+        top: 10%;            
+        left: 55%;
+        width: 40%;                       
+    }
+    
+    .build_text, .tamar_text{
+        margin: 10px;
+        position: absolute;  
+        top: 30%;            
+        left: 55%;
+        width: 40%; 
+    }
+    
+    .polo_text, .beach_text{
+        margin: 10px;
+        position: absolute;  
+        top: 20%;            
+        right: 55%;
+        width: 40%;  
+    }
+
 }
