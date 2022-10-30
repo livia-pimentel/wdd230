@@ -176,7 +176,7 @@
     }
 
     /* Discover Page*/
-    .label{
+    .label, .lastVisitUser{
         font-size: 20px;
     }
 

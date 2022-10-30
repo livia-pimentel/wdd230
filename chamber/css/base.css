@@ -337,7 +337,7 @@ footer{
     padding: 1em;
 }
 
-.label{
+.label, .lastVisitUser{
     font-weight: bold;
 }
 
