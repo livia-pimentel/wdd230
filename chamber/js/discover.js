@@ -18,33 +18,37 @@ numVisits++;
 localStorage.setItem('visits-ls', numVisits);  
 
 
-//Data storage
-today = new Date()
+//Data Storage
 
-
-const numberDays = document.querySelector('.number_days')
-// localStorage.setItem('days', new Date())
-
-
-let date_1 = new Date('10/25/2022');
-// let date_1 = localStorage.getItem('days');
-
-let date_2 = today;
-
-const days = (date_1, date_2) =>{
-    let difference = Math.abs(date_2.getTime() - date_1.getTime());
-    let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
-    return TotalDays;
+function currentDate(){
+  const time = new Date()
+  let day = String(time.getDate()).padStart(2, '0');
+  let month = String(time.getMonth() + 1).padStart(2, '0');
+  let year = time.getFullYear();
+  now = month + '/' + day + '/' + year;
+  return now;
 }
-numberDays.innerHTML = days(date_1, date_2)
 
+let date = currentDate();
+if(window.localStorage.getItem('lastDay') == undefined){
+  localStorage.setItem('lastDay', date)
+}
 
+function calculateDays(today, last){
+  let date1 = new Date(today);
+  let date2 = new Date(last);
+  const difference_time = Math.abs(date1 - date2);
+  const difference_days = Math.ceil(difference_time / (1000 * 60 * 60 * 24));
+  return difference_days
+}
 
+let finalDay = calculateDays(window.localStorage.getItem('lastDay'), date);
+// alert(finalDay)
+const numberDays = document.querySelector('.number_days')
+numberDays.textContent = finalDay
 
 // Last Modification
 document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`
-
-
 
 //IntersectionObserver for Images
 //get all imgs with data-src attribute
@@ -53,7 +57,7 @@ const imagesToLoad = document.querySelectorAll('img[data-src]');
 //optional parameters being set for the IntersectionObserver
 const imgOptions = {
     threshold: 1,
-    rootMargin: '0px 0px 50px 0px'
+    rootMargin: '0px 0px 100px 0px'
 };
 
 const loadImages = (image) => {

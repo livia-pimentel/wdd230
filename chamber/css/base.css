@@ -339,6 +339,7 @@ footer{
 
 .label, .lastVisitUser{
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .city, .polo, .build, .beach, .tamar{
