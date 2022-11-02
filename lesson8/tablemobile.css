@@ -53,3 +53,7 @@ td{
 tbody tr:nth-child(even){
     background-color: var(--zebra);
 }
+
+div#container{
+    overflow-x: auto;
+}
