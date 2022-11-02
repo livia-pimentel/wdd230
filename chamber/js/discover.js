@@ -56,6 +56,9 @@ const numberDays = document.querySelector('.number_days')
 numberDays.textContent = finalDay
 
 
+//Date Script
+
+
 // Last Modification
 document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`
 
