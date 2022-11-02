@@ -55,8 +55,11 @@ let finalDay = calculateDays(window.localStorage.getItem('lastDay'), date);
 const numberDays = document.querySelector('.number_days')
 numberDays.textContent = finalDay
 
-
 //Date Script
+const datefield = document.querySelector('.date');
+const nowField = new Date();
+const fulldate = new Intl.DateTimeFormat('en-US', {dateStyle: 'full'}).format(nowField);
+datefield.innerHTML = `${fulldate}`
 
 
 // Last Modification
