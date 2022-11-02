@@ -1,0 +1,55 @@
+:root{
+	--back: rgba(7, 26, 134, 0.842);
+    --back2: rgba(23, 112, 214, 0.596);
+    --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: rgb(129, 126, 126);
+	--zebra: rgba(173, 195, 228, 0.671);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    font-family: sans-serif;
+    border: thin solid var(--border);
+    box-shadow: 0 0 30px var(--shadow);
+    border-collapse: collapse;
+}
+
+caption{
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: 1rem;
+    font-style: italic;
+}
+
+tr:first-child th, .highlight{
+    background-color: var(--back);
+    color: var(--forelight);
+}
+
+th, td{
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+
+}
+
+th{
+    background-color: var(--back2);
+}
+
+td{
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--zebra);
+}
