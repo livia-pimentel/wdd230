@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Camaçari Chamer of Commerce</title>
+    <meta name="descripton" content="Week 04 Assignment - Chamber Home Page Build">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <div class="brand-header">
+                <picture class="logo-header">
+                    <img src="images/logo.webp" alt="Logo">
+                </picture>
+                <div class="headings">
+                    <h1>Camaçari</h1>
+                    <p>Chamer of Commerce</p>
+                </div>
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="date"></div>
+        </div>
+    </header>
+
+    <main class="form">
+        <div id="banner">🤝🏼 Come join us for the Camaçari Chamer of Commerce meet and greet <strong>Wednesday at 7:00
+                p.m. </strong><button id="close">x</button></div>
+
+        <div class="clearfix">
+            <h1>Registration - Camaçari Chamer of Commerce</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend> Applicant Information </legend>
+                    <label class="top">First Name* <input type="text" name="fname" required pattern="[a-zA-z]+$"></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required pattern="[a-zA-Z-\s]+$"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="myemail@gmail.com" required
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" required pattern="[0-9]+$"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business Position <input type="text" name="bposition" pattern="[a-zA-Z-0-9-\s]+$"
+                            minlength="7"></label>
+                    <label class="top">Business Name* <input type="text" name="bname" required></label>
+                    <label class="top">Business Description <textarea name="bdescription" cols="40"
+                            rows="10"></textarea></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Membership Level</legend>
+                    <div id="radio">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <label><input type="radio" name="mlevel" value="nplevel">NP
+                                            Membership</label>
+                                        <label class="lbl-description">
+                                            - fee-free non-profit organizations, 1 free training per year and 10% discount on events
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label><input type="radio" name="mlevel" value="brlevel">Bronze
+                                            Membership</label>
+                                        <label class="lbl-description">
+                                            - ($400/year) 2 trainings per year, 20% discount on events, 1 consultancy per semester
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label><input type="radio" name="mlevel" value="silevel">Silver
+                                            Membership</label>
+                                        <label class="lbl-description">
+                                            - ( $900/year) Previous benefits, 2 consultations per semester and participation in event planning</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label><input type="radio" name="mlevel" value="golevel">Gold
+                                            Membership</label>
+                                        <label class="lbl-description">
+                                            - ( $1200/year) Previous benefits, 40% discount on events, participation in the strategic council
+                                        </label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </fieldset>
+                <input type="hidden" id="lastModified" name="date" value="">
+                <input type="submit" value="Send My Registration" class="submitBtn">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <picture class="logo-footer">
+                <img src="images/logo.webp" alt="Logo">
+            </picture>
+            <div class="brand-footer">
+                <div class="title-footer">
+                    <h1>Camaçari </h1>
+                    <p>Chamer of Commerce</p>
+                </div>
+                <address class="local">
+                    2543 Alameda Monte das Dunas<br>
+                    Camaçari - Bahia, Brazil
+                </address>
+            </div>
+            <div class="contact">
+                <p>info@www.camacaricc.org</p>
+                <p class="phone"><b>Phone:</b> +55 71 3017-2121</p>
+                📍<a
+                    href="https://www.google.com/maps/@-12.6433613,-38.0748473,3a,75y,135.64h,90t/data=!3m7!1e1!3m5!1ski5AT6G3YHHuqjfj7kFa5A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dki5AT6G3YHHuqjfj7kFa5A%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D135.63727%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656">Location
+                    Map
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="baseboard">
+            <p>&copy;
+                2022 Camaçari Chamer of Commerce </p><span class="separator">|</span>
+            <p><b>Livia Macêdo Pimentel</b></p>
+            <span class="separator">|</span>
+            <p>WDD 230 Project</p> <span class="separator">|</span><span id="lastModified"></span>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

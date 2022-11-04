@@ -205,4 +205,11 @@
         margin: 2em;
     }
 
+    .clearfix h1{
+        font-size: 1.7rem;
+      }
+
+    .thanks p{
+        font-size: 1.7rem;
+    }
 }

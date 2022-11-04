@@ -204,4 +204,11 @@
         width: 40%;  
     }
 
+    .clearfix h1{
+        font-size: 2rem;
+      }
+
+    .thanks p{
+        font-size: 2rem;
+    }
 }
