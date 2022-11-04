@@ -61,15 +61,14 @@
                     <legend> Applicant Information </legend>
                     <label class="top">First Name* <input type="text" name="fname" required pattern="[a-zA-z]+$"></label>
                     <label class="top">Last Name* <input type="text" name="lname" required pattern="[a-zA-Z-\s]+$"></label>
-                    <label class="top">Email* <input type="email" name="email" placeholder="myemail@gmail.com" required
+                    <label class="top">Email* <input type="email" name="email" placeholder="youremail@gmail.com" required
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label>
                     <label class="top">Phone* <input type="tel" name="phone" required pattern="[0-9]+$"></label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label class="top">Business Position <input type="text" name="bposition" pattern="[a-zA-Z-0-9-\s]+$"
-                            minlength="7"></label>
+                    <label class="top">Job Title (minimum of 7 characters)<input type="text" name="bposition" pattern="[a-zA-Z-0-9-\s]+$" minlength="7"></label>
                     <label class="top">Business Name* <input type="text" name="bname" required></label>
                     <label class="top">Business Description <textarea name="bdescription" cols="40"
                             rows="10"></textarea></label>
@@ -119,7 +118,7 @@
                         </table>
                     </div>
                 </fieldset>
-                <input type="hidden" id="lastModified" name="date" value="">
+                <input type="hidden" id="dateValue" name="date" value="">
                 <input type="submit" value="Send My Registration" class="submitBtn">
             </form>
         </div>

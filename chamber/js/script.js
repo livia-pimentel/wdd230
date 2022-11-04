@@ -56,3 +56,7 @@ close.addEventListener('click', () => {
 //     }
 // }
 
+let date = new Date();
+const hiddenElement = document.querySelector("#dateValue");
+hiddenElement.setAttribute("value",date);
+
