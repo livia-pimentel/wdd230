@@ -204,11 +204,33 @@
         width: 40%;  
     }
 
+    /* JOIN PAGE*/
     .clearfix h1{
         font-size: 2rem;
       }
 
     .thanks p{
         font-size: 2rem;
+    }
+
+    main.form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    .clearfix{
+        grid-column: 1;
+        grid-row: 1/5;
+    }
+
+    .clearfix h1{
+        grid-column: 1
+    }
+
+    #m-table{
+        grid-column: 2;
+        grid-row: 1/2;
+        margin-top: 8.5rem;
     }
 }

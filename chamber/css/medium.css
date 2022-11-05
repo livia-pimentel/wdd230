@@ -205,6 +205,7 @@
         margin: 2em;
     }
 
+    /*JOIN PAGE*/
     .clearfix h1{
         font-size: 1.7rem;
       }
@@ -212,4 +213,10 @@
     .thanks p{
         font-size: 1.7rem;
     }
+
+    div#m-table{
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
+      }
 }

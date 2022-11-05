@@ -59,16 +59,19 @@
             <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend> Applicant Information </legend>
-                    <label class="top">First Name* <input type="text" name="fname" required pattern="[a-zA-z]+$"></label>
-                    <label class="top">Last Name* <input type="text" name="lname" required pattern="[a-zA-Z-\s]+$"></label>
-                    <label class="top">Email* <input type="email" name="email" placeholder="youremail@gmail.com" required
-                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label>
+                    <label class="top">First Name* <input type="text" name="fname" required
+                            pattern="[a-zA-z]+$"></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required
+                            pattern="[a-zA-Z-\s]+$"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="youremail@gmail.com"
+                            required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label>
                     <label class="top">Phone* <input type="tel" name="phone" required pattern="[0-9]+$"></label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label class="top">Job Title (minimum of 7 characters)<input type="text" name="bposition" pattern="[a-zA-Z-0-9-\s]+$" minlength="7"></label>
+                    <label class="top">Job Title (minimum of 7 characters)<input type="text" name="bposition"
+                            pattern="[a-zA-Z-0-9-\s]+$" minlength="7"></label>
                     <label class="top">Business Name* <input type="text" name="bname" required></label>
                     <label class="top">Business Description <textarea name="bdescription" cols="40"
                             rows="10"></textarea></label>
@@ -76,52 +79,77 @@
 
                 <fieldset>
                     <legend> Membership Level</legend>
-                    <div id="radio">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <label><input type="radio" name="mlevel" value="nplevel">NP
-                                            Membership</label>
-                                        <label class="lbl-description">
-                                            - fee-free non-profit organizations, 1 free training per year and 10% discount on events
-                                        </label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <label><input type="radio" name="mlevel" value="brlevel">Bronze
-                                            Membership</label>
-                                        <label class="lbl-description">
-                                            - ($400/year) 2 trainings per year, 20% discount on events, 1 consultancy per semester
-                                        </label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <label><input type="radio" name="mlevel" value="silevel">Silver
-                                            Membership</label>
-                                        <label class="lbl-description">
-                                            - ( $900/year) Previous benefits, 2 consultations per semester and participation in event planning</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <label><input type="radio" name="mlevel" value="golevel">Gold
-                                            Membership</label>
-                                        <label class="lbl-description">
-                                            - ( $1200/year) Previous benefits, 40% discount on events, participation in the strategic council
-                                        </label>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <label class="sbs"><input type="radio" name="mlevel" value="nplevel">Non-Profit - $100</label>
+                    <label class="sbs"><input type="radio" name="mlevel" value="brlevel">Bronze - $400</label>
+                    <label class="sbs"><input type="radio" name="mlevel" value="silevel">Silver - $900</label>
+                    <label class="sbs"><input type="radio" name="mlevel" value="golevel">Gold - $1,200</label>
                 </fieldset>
                 <input type="hidden" id="dateValue" name="date" value="">
                 <input type="submit" value="Send My Registration" class="submitBtn">
             </form>
+            
         </div>
+        <div id="m-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="5" scope="col">Membership Level Benefits</th>
+                    </tr>
+                    <tr>
+                        <th class="left">Benefits</th>
+                        <th>NP</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="back-color">
+                        <td class="left">Annual Membership</td>
+                        <td>$100</td>
+                        <td>$400</td>
+                        <td>$900</td>
+                        <td>$1,200</td>
+                    </tr>
+                    <tr class="emphasis">
+                        <td class="left">1 free training per year</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr class="back-color">
+                        <td class="left">Discount on Events</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr class="emphasis">
+                        <td class="left">Consultancy per semester</td>
+                        <td> </td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr class="back-color">
+                        <td class="left">Participation in event Planning</td>
+                        <td> </td>
+                        <td> </td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr class="emphasis">
+                        <td class="left">Participation in the Strategic Council</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td>X</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
     </main>
     <footer>
         <div class="container-footer">
