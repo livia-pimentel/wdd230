@@ -207,6 +207,7 @@
     /* JOIN PAGE*/
     .clearfix h1{
         font-size: 2rem;
+        margin-top: 2.3rem;
       }
 
     .thanks p{
@@ -224,6 +225,11 @@
         grid-row: 1/5;
     }
 
+    #banner{
+        grid-column: 1/3;
+        padding: .5rem;
+        grid-row: 1;
+    }
     .clearfix h1{
         grid-column: 1
     }
