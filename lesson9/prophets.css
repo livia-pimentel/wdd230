@@ -16,12 +16,12 @@ header h1{
     margin: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    overflow: hidden;
 }
 
 
 .cards section{
     width: auto;
-    overflow: hidden;
     border: 3px solid rgba(0, 0, 0, 0.795);
     border-radius: 10px;
     background-color: rgba(231, 233, 235, 0.61);
