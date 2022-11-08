@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(97, 161, 204, 0.486);
+}
+
+header h1{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+    text-decoration: underline rgba(0, 0, 0, 0.795);
+}
+
+main{
+    margin: 1rem;
+    display: block;
+}
+
+.cards section{
+    width: auto;
+    overflow: hidden;
+    border: 3px solid rgba(0, 0, 0, 0.795);
+    border-radius: 10px;
+    background-color: rgba(231, 233, 235, 0.61);
+    margin-bottom: 10px;
+}
+
+.cards section h2{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(4, 17, 90);
+}
+
+.cards section h3{
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.cards section img{
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 30px rgba(97, 161, 204, 0.76);
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 16.5px;
+}
+
+@media only screen and (min-width: 35rem){
+    body{
+        background-color: rgba(0, 128, 0, 0.507);
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards section{
+        margin: 10px 20px 10px 20px;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 65rem){
+    body{
+        background-color: rgba(127, 255, 212, 0.664);
+    }
+    .cards{
+        margin: auto;
+    }
+    
+    .cards section{
+        padding: 1rem;
+        margin: 10px 30px 20px 30px;
+    }
+
+
+}
+
+
+
