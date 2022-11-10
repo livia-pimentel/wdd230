@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "Delicatessen V & L",
+            "address": "R. Itacimirim, 303 - Inocoop",
+            "phone": "(71) 3627-6920",
+            "membership": "Membership-level: Gold",
+            "website": "https://www.veele.com.br/",
+            "image": "https://www.veele.com.br/wp-content/uploads/2022/08/logo-e-slogan-novo-1.png"
+        } ,
+        {
+            "name": "Dogão da Cris",
+            "address": "Av. Industrial Urbana - Ponto Certo,",
+            "phone": "(71) 99284-3177",
+            "membership": "Membership-level: Gold",
+            "website": "https://www.instagram.com/dogao.dacris/",
+            "image": "https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/bb98b090-4855-4679-bd9a-1c137220c19f/202202191513_I0d8_i.jpg"
+        },
+        {
+            "name": "The Ham's Burger",
+            "address": "R. Acajutiba, 19a - Gleba C",
+            "phone": "(71) 3622-2629",
+            "membership": "Membership-level: Gold",
+            "website": "https://www.facebook.com/hamsburguer/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1j439Sm8C2Z3QgRdk0YiVTg3GsDf13PYkkVsL3fMy84Z-3GOmkzCl62MDvChGOn2Xv2g&usqp=CAU"
+        },
+        {
+            "name": "Sabor do Sul Pizzas",
+            "address": "R. Contôrno de Centro Administrativo, 6 - Ponto Certo",
+            "phone": "(71) 3622-1324",
+            "membership": "Membership-level: Gold",
+            "website": "http://camacari.sabordosulpizzas.com.br/",
+            "image": "https://play-lh.googleusercontent.com/h5O0xMyxhgr_4ilYk5j5AyaKlMWDHM9rwB3LYkl76FtahRjGYWO1gjVjA3tgl0jXtQ"
+        },
+        {
+            "name": "O Acarajé da Rosa",
+            "address": "Praça Abrantes - Centro",
+            "phone": "(71) 1111-2212",
+            "membership": "Membership-level: Gold",
+            "website": "https://www.facebook.com/acarajedarosaa/",
+            "image": "https://static-images.ifood.com.br/image/upload/t_high/logosgde/1fa82d21-dc22-4e3f-97c6-d1729db5626c/201909250954_jk9Y_i.png"
+        },
+        {
+            "name": "Restaurante Varanda 46",
+            "address": "Avenida Oeste, 219 - Phoc II",
+            "phone": "(71) 3621-9838",
+            "membership": "Membership-level: Gold",
+            "website": "https://pt-br.facebook.com/RestauranteVaranda46/",
+            "image": "https://10619-2.s.cdn12.com/rests/original/327_476745571.jpg"
+        },
+        {
+            "name": "Exagerado Fried Chicken",
+            "address": "Av. Luis Gonzaga, 517-521 - Phoc II",
+            "phone": "(71) 99905-8790",
+            "membership": "Membership-level: Gold",
+            "website": "https://pt-br.facebook.com/exageradoba/",
+            "image": "https://static-images.ifood.com.br/image/upload/t_high/logosgde/71cbe6cd-51ab-4e00-83c4-1f88c09209c6/202002040803_gsFG_.jpeg"
+        },
+        {
+            "name": "Mundo dos Salgados",
+            "address": "R. Duque de Caxias, 465 - Centro",
+            "phone": "(71) 99176-0498",
+            "membership": "Membership-level: Gold",
+            "website": "https://www.instagram.com/_mundodossalgados/",
+            "image": "https://static-images.ifood.com.br/image/upload/t_high/logosgde/fd3570a7-1410-474a-b0bb-644837dece9d/202003251457_22XE_i.jpg"
+        },
+        {
+            "name": "Sr. Banana Açai",
+            "address": "R. Nova Camaçari - Inocoop",
+            "phone": "(71) 99161-7770",
+            "membership": "Membership-level: Gold",
+            "website": "http://srbananaacai.com.br/",
+            "image": "https://nossametropole.com.br/premioempreender/wp-content/uploads/2019/08/sr_banana.jpg"
+        }
+    ]
+}

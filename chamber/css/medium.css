@@ -219,4 +219,54 @@
         justify-content: center;
         margin-right: 50px;
       }
-}
+
+      /*DIRECTORY PAGE*/
+
+      .companies section:hover{
+        background-color: #06ac06b0;
+      }
+
+
+      .listcompanies{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .listcompanies section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+      }
+
+      .listcompanies section:hover{
+        background-color: #06ac06b0;
+      }
+
+      .listcompanies h2{
+        font-weight: bold;
+        grid-row: 1;
+        grid-column: 1/5;
+      }
+
+      .listcompanies p:nth-child(2){
+        grid-row: 2;
+        grid-column: 1/5;
+      }
+
+      .listcompanies p:nth-child(3){
+        grid-row: 3;
+        grid-column: 1/5;
+      }
+
+      .listcompanies a{
+        font-size: .9rem;
+        grid-row: 4;
+        grid-column: 1/5;
+      }
+
+
+      
+
+
+
+  }

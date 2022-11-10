@@ -15,9 +15,9 @@ fetch(requestURL)
 function displayProphets(prophet) {
     let card = document.createElement('section');
     let nameProphet = document.createElement('h2');
-    let birthProphet = document.createElement('h3');
-    let deathProphet = document.createElement('h3');
-    let placeBirth = document.createElement('h3')
+    let birthProphet = document.createElement('p');
+    let deathProphet = document.createElement('p');
+    let placeBirth = document.createElement('p')
     let portrait = document.createElement('img');
 
     nameProphet.textContent = `${prophet.name} ${prophet.lastname}`;

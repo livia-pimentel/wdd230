@@ -36,9 +36,10 @@ header h1{
     color: rgb(4, 17, 90);
 }
 
-.cards section h3{
+.cards section p{
     padding: 2px;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .cards section img{
