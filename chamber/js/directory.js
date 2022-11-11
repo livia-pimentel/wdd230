@@ -1,4 +1,4 @@
-const request = "/chamber/js/data.json";
+const request = './js/data.json';
 const businesses = document.querySelector('.companies');
 const businessesList = document.querySelector('.listcompanies')
 
@@ -6,9 +6,9 @@ fetch(request)
     .then(function (response) {
         return response.json();
     })
-    .then(function (data) {
-        console.log(data)
-        const companies = data['companies'];
+    .then(function (jsonObject) {
+        // console.log(jsonObject)
+        const companies = jsonObject['companies'];
         companies.forEach(displayCompanies);
     })
 
