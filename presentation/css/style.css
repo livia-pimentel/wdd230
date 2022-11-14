@@ -3,14 +3,14 @@ body{
     margin: auto;
     max-width: 960px;
     font-size: 18px;
-    background-color: rgba(241, 226, 241, 0.301);
+    background-color: rgba(240, 169, 240, 0.555);
 }
 
 main{
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(86, 8, 102);
     border-radius: 15px;
-    background-color: rgba(233, 134, 167, 0.432);
+    background-color: rgba(177, 89, 177, 0.411);
 }
 
 h1{
@@ -27,7 +27,7 @@ h1{
 
 video{
     width: 90%;
-    border: 5px solid black;
+    border: 2px solid rgb(86, 8, 102);;;
     border-radius: 30px;
 }
 
