@@ -24,13 +24,30 @@ section{
 h1{
     font-family: 'Open Sans', sans-serif; 
     text-shadow: 2px 2px 10px black;
+    font-size: 26px;
 }
 
 h2{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    font-size: 23px;
 }
 
 p, figcaption{
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+@media only screen and(min-width:35rem){
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 27px;
+    }
+
+    p, figcaption{
+        font-size: 24px;
+    }
 }
