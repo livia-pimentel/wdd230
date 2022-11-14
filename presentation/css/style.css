@@ -27,9 +27,20 @@ h1{
 
 video{
     width: 90%;
-    height: 600px;
     border: 5px solid black;
     border-radius: 30px;
+}
+
+@media only screen and (min-width: 35rem){
+    video{
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 64rem){
+    video{
+        height: 520px;
+    }
 }
 
 
