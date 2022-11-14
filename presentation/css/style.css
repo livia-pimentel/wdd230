@@ -1,0 +1,38 @@
+body{
+    padding: 10px;
+    margin: auto;
+    max-width: 960px;
+    font-size: 18px;
+    background-color: rgba(241, 226, 241, 0.301);
+}
+
+main{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(233, 134, 167, 0.432);
+}
+
+h1{
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.video-part, .canvas-part, .sources-part, .extra{
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+video{
+    width: 90%;
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+
+
+
+
