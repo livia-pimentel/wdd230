@@ -58,6 +58,7 @@ close.addEventListener('click', () => {
 
 //Weather API
 //Select HTML elements in the document
+const cityName = document.querySelector('#city_name')
 const currentTemp = document.querySelector('#degrees');
 const weatherIcon = document.querySelector('#weather-img');
 const capitionDesc = document.querySelector('figcaption');
@@ -80,7 +81,8 @@ async function apiFetch() {
 }
 
 function displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`
+    cityName.innerHTML = `${weatherData.name}`;
+    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;

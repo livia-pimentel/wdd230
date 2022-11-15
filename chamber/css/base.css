@@ -172,6 +172,10 @@ nav ul.open{
     font-weight: bold;
 }
 
+#city_name{
+    font-size: 1.3rem;
+}
+
 figcaption{
     font-size: 1.4rem;
     font-weight: bold;
