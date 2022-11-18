@@ -60,7 +60,6 @@ close.addEventListener('click', () => {
 //Select HTML elements in the document
 const cityName = document.querySelector('#city_name')
 let currentTemp = document.querySelector('#degrees');
-let speedWind = document.querySelector('#speed');
 const wind_chill = document.querySelector('#wind');
 const weatherIcon = document.querySelector('#weather-img');
 const capitionDesc = document.querySelector('figcaption');
@@ -96,15 +95,17 @@ function displayResults(weatherData) {
 }
 
 function displayWindChill(windData){
-    currentTemp = Number`${windData.main.temp}`;
+    let speedWind = document.querySelector('#speed');
+    currentTemp = `${windData.main.temp}`;
     speedWind.innerHTML = `${windData.wind.speed}`
-    speedWind = Number`${windData.wind.speed}`;
+    speedWind = `${windData.wind.speed}`;
+    
     
     // Convert Temperature value Celsius to Fahrenheit
-    let tempFahrenheit = 1.8 * currentTemp + 32;
+    let tempFahrenheit = 1.8 * Number(currentTemp) + 32;
 
     //Convert k/h to mph
-    let wind_speed_mph = 0.621371 *speedWind;
+    let wind_speed_mph = 0.621371 * Number(speedWind);
 
     if (tempFahrenheit <= 50 && wind_speed_mph >= 3){
         let wc = 35.74 + 0.6215 * tempFahrenheit - 35.75 * wind_speed_mph ** 0.16 + 0.4275 * tempFahrenheit * wind_speed_mph ** 0.16;
