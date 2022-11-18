@@ -59,7 +59,9 @@ close.addEventListener('click', () => {
 //Weather API
 //Select HTML elements in the document
 const cityName = document.querySelector('#city_name')
-const currentTemp = document.querySelector('#degrees');
+let currentTemp = document.querySelector('#degrees');
+let speedWind = document.querySelector('#speed');
+const wind_chill = document.querySelector('#wind');
 const weatherIcon = document.querySelector('#weather-img');
 const capitionDesc = document.querySelector('figcaption');
 
@@ -72,6 +74,7 @@ async function apiFetch() {
             const data = await response.json();
             console.log(data)
             displayResults(data);
+            displayWindChill(data);
         } else {
             throw Error(await response.text());
         }
@@ -90,6 +93,26 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     capitionDesc.textContent = desc
+}
+
+function displayWindChill(windData){
+    currentTemp = Number`${windData.main.temp}`;
+    speedWind.innerHTML = `${windData.wind.speed}`
+    speedWind = Number`${windData.wind.speed}`;
+    
+    // Convert Temperature value Celsius to Fahrenheit
+    let tempFahrenheit = 1.8 * currentTemp + 32;
+
+    //Convert k/h to mph
+    let wind_speed_mph = 0.621371 *speedWind;
+
+    if (tempFahrenheit <= 50 && wind_speed_mph >= 3){
+        let wc = 35.74 + 0.6215 * tempFahrenheit - 35.75 * wind_speed_mph ** 0.16 + 0.4275 * tempFahrenheit * wind_speed_mph ** 0.16;
+        wc = wc.toFixed(2);
+        wind_chill.innerHTML = wc
+    } else{
+        wind_chill.innerHTML = 'N/A'
+    }
 }
 
 apiFetch(url)
