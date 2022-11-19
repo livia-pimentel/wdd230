@@ -105,7 +105,9 @@ function displayWindChill(windData){
     let tempFahrenheit = 1.8 * Number(currentTemp) + 32;
 
     //Convert k/h to mph
-    let wind_speed_mph = 0.621371 * Number(speedWind);
+    let wind_speed_kh = Number(speedWind) * 3.6;
+
+    let wind_speed_mph = 0.621371 * Number(wind_speed_kh);
 
     if (tempFahrenheit <= 50 && wind_speed_mph >= 3){
         let wc = 35.74 + 0.6215 * tempFahrenheit - 35.75 * wind_speed_mph ** 0.16 + 0.4275 * tempFahrenheit * wind_speed_mph ** 0.16;
