@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Camaçari Chamber of Commerce</title>
+    <title>Camaçari Chamer of Commerce</title>
     <meta name="descripton" content="Week 04 Assignment - Chamber Home Page Build">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +28,7 @@
                 </picture>
                 <div class="headings">
                     <h1>Camaçari</h1>
-                    <p>Chamer of Commerce</p>
+                    <p>Chamber of Commerce</p>
                 </div>
             </div>
             <div class="icons">
@@ -44,7 +44,6 @@
                     <li class="active"><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="contact.html">Contact</a></li>
-
                 </ul>
             </nav>
             <div class="date"></div>
@@ -52,13 +51,74 @@
     </header>
     <main>
         <div id="banner">🤝🏼 Come join us for the Camaçari Chamer of Commerce meet and greet <strong>Wednesday at 7:00 p.m. </strong><button id="close">x</button></div>
-        <h1 class="title-direct">Business Directory</h1>
-        <div class="menu">
-            <input type="image" id="large_btn" alt="Large View" src="images/icon_list_l.png" onclick="view('large')">
-            <input type="image" id="small_btn" alt="Small View" src="images/icon_list_s.png" onclick="view('small')">
-        </div>  
-            <div class="companies"></div>
-            <div class="listcompanies" style="display: none;"></div>
+        <h1 class="title-contact">Contact Camaçari Chamber</h1>
+        <section class="contact-sec">
+            <div class="container-form">
+                <iframe class='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3893.067701062713!2d-38.07675748560872!3d-12.643563356730146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71651779b77abc5%3A0xa4a4533ce75f6be1!2sGuarajuba%20Shopping!5e0!3m2!1sen!2sbr!4v1669068763535!5m2!1sen!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend> Contact Information </legend>
+                        <label class="contact-page">Name* <input type="text" placeholder="Full Name" name="fname" required pattern="[a-zA-Z\s]+$"></label>
+                        <label class="contact-page">Email*  <input type="email" placeholder="your_email@domain.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></label>
+                        <label class="contact-page">Phone* <input type="phone" placeholder="11 11111-2222" required pattern="[0-9\s\-]+$"></label>
+                        <label class="contact-page">Message* 
+                        <textarea name="bdescription" cols="40" rows="10" required="required"></textarea>
+                        </label>
+                        <input type="hidden" id="dateValue" name="date" value="">
+                        <input type="submit" value="Send My Contact" class="submitBtn">
+                    </fieldset>
+                </form>
+            </div>
+            
+            <section class="info">
+                <hr>
+                <h2>Visit Us</h2>
+                <h3>Camaçari Chamber of Commerce</h3>
+                <address class="add-cont">2543 Alameda Monte das Dunas<br>
+                Camaçari - Bahia, Brazil</address>
+                <p>Monday – Friday: 8:30 a.m. to 4:00 p.m.</p>
+                <hr>
+
+                <hr>
+                <h2>Contacts</h2>
+                <h3>Office</h3>
+                <p>Email: info@www.camacaricc.org</p>
+                <p>Phone: +55 71 3017-2121</p>
+                
+                <h3>Elizabete Santos</h3>
+                <p>President & CEO</p>
+                <p>Phone: +55 71 3017-2121, ext. 100</p>
+                <p>Email: elizabete@camacaricc.org</p>
+
+                <h3>Joilson Silva</h3>
+                <p>Director of Marketing and Communications</p>
+                <p>Phone: +55 71 3017-2121, ext. 101</p>
+                <p>Email: joilson@camacaricc.org</p>
+
+                <h3>Jack Snow</h3>
+                <p>Project Manager</p>
+                <p>Phone: +55 71 3017-2121, ext. 102</p>
+                <p>Email: jack@camacaricc.org</p>
+
+                <h3>Julio Souza</h3>
+                <p>Membership Director</p>
+                <p>Phone: +55 71 3017-2121, ext. 103</p>
+                <p>Email: julio@camacaricc.org</p>
+
+
+                <h3>Ana Smith</h3>
+                <p>Finance Manager</p>
+                <p>Phone: +55 71 3017-2121, ext. 104</p>
+                <p>Email: ana@camacaricc.org</p>
+
+
+                <h3>José Carmo</h3>
+                <p>Operations Assistant</p>
+                <p>Phone: +55 71 3017-2121, ext. 105</p>
+                <p>Email: jose@camacaricc.org</p>
+            </section>
+        </section>
 
     </main>
     <footer>
@@ -94,6 +154,6 @@
             <p>WDD 230 Project</p> <span class="separator">|</span><span id="lastModified"></span>
         </div>
     </footer>
-    <script src="js/directory.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

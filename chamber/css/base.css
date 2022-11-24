@@ -4,8 +4,10 @@ font-family: 'Roboto', sans-serif;
 */
 
 body{
+    max-width: 80rem;
     padding: 0;
-    margin: 10px;
+    margin:1rem auto;
+    background-color: rgba(238, 238, 238, 0.616);
     font-family: 'Roboto', sans-serif;
     font-size: 15.5px;
 }
@@ -65,8 +67,7 @@ body{
     width: 100%;
     margin: 5px;
     padding: 0.5rem;
-    height: 30px;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     background-color: #8cda72;
@@ -102,7 +103,7 @@ nav ul li a{
     font-weight: bold;
     color: rgba(0, 0, 0, 0.74);
     border-top: 1px solid rgba(53, 53, 184, 0.699);
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 nav ul li.active a{
@@ -147,6 +148,7 @@ nav ul.open{
 
 #banner{
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .hero-page, .event, .news{
@@ -251,10 +253,10 @@ figcaption{
 }
 
 .spotlight1, .spotlight2{
-    margin: 10px;
+    margin: 3px;
     height: auto;
     width: 100%;
-    padding: 5px;
+    padding: 2px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
     
@@ -599,6 +601,117 @@ td.left{
     height: 180px;
   }
 
+  /* Contact Page */
+
+  .contact-sec{
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+
+  .container-form form fieldset{
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+    border: 2px solid #06ac06b0;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: rgba(238, 238, 238, 0.397);
+    max-width: 90%;
+  }
+
+  .container-form form legend{
+    margin: 0 1rem;
+    padding: 0 5.rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.877);
+  }
+
+  .container-form form label{
+    max-width: 90%;
+  }
+
+form .contact-page{
+    display: block;
+    padding-top: 1rem;
+    color: rgb(53, 53, 184);
+    font-size: 1.3rem;
+}
+
+.contact-page textarea{
+    background-color: rgba(223, 220, 220, 0.897);
+    font-size: 1.2rem;
+}
+
+.container-form form input.submitBtn{
+    border: none;
+    background-color: #beff73ab;
+    border-radius: 2rem;
+    padding: .75rem;
+    margin: .5rem 0 ;
+    width: 90%;
+    max-width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.title-contact{
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.877);
+    text-shadow: black 0.1em 0.1em 0.5em;
+}
+
+.container-form label.contact-page input:required{
+    border-left: red solid 10px;
+}
+
+.container-form label.contact-page input:required:valid{
+    border-left: #06ac06b0 solid 10px;
+}
+
+
+.map{
+    border: none;
+    width: auto;
+    height: 400px;
+}
+
+.info h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+
+.info h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.877)
+}
+
+.info p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    margin: 3px;
+}
+
+.add-cont{
+    font-style: normal;
+}
+
+.info hr{
+    border: 2px solid #06ac06b0;
+}
+
+/* Spolight - Home */
+
+.imgSpot{
+    margin-top: .5rem;
+    width: 160px;
+    height: 100px;
+  }
 
 
 
