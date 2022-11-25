@@ -69,6 +69,7 @@
         font-size: 2rem;
     }
 
+
     .hero-page-2{
         bottom: 20px;
         right: 20px;
@@ -79,6 +80,10 @@
         grid-column: 2;
         grid-row: 3;
         height: auto;
+    }
+
+    .news:hover{
+        background-color:  #06ac06b0;
     }
 
     .group{
@@ -92,10 +97,18 @@
         
     }
 
+    .event:hover{
+        background-color: #06ac06b0;
+    }
+
     .weather{
         grid-column: 1;
         grid-row: 2;
         width: auto;
+    }
+
+    .weather:hover{
+        background-color:  #06ac06b0;
     }
 
     #weather-img{
@@ -111,6 +124,10 @@
         grid-row: 3;
         height: auto;
         height: 230px;
+    }
+
+    .join:hover{
+        background-color:  #06ac06b0;
     }
 
     .spotlight{
@@ -131,6 +148,15 @@
 
     .spotlight1, .spotlight2{
         width: auto;
+    }
+
+    .spotlight1:hover, .spotlight2:hover, .spotlight3:hover{
+        background-color:  #06ac06b0;
+    }
+
+    .imgSpot{
+        width: 130px;
+        height: 90px;
     }
 
     .fa-cloud, .fa-recycle, .fa-user-pen, .fa-tree-city{

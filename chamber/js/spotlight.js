@@ -1,6 +1,5 @@
 const request = './js/associates.json';
 const spotlight = document.querySelector('#spotlight');
-// const teste = screen.width;
 let cont = 0
 let numbers = []
 
