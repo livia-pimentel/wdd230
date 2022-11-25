@@ -1,5 +1,6 @@
 const request = './js/associates.json';
-const spotlight = document.querySelector('#spotlight')
+const spotlight = document.querySelector('#spotlight');
+// const teste = screen.width;
 let cont = 0
 let numbers = []
 
@@ -19,7 +20,6 @@ fetch(request)
             document.querySelector('#spotlight' + i).style.display = "none";
         }
         select(cont,3)
-
     }
 
     function select(max, quant){
