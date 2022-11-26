@@ -252,7 +252,7 @@
         font-size: 2rem;
     }
 
-    main.form{
+    /* main.form{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 5px;
@@ -276,7 +276,7 @@
         grid-column: 2;
         grid-row: 1/2;
         margin-top: 8.5rem;
-    }
+    } */
 
     /*DIRECTORY PAGE*/
 
