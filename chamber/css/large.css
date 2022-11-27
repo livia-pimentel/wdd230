@@ -243,9 +243,17 @@
     }
 
     /* JOIN PAGE*/
+
     .clearfix h1{
         font-size: 2rem;
         margin-top: 2.3rem;
+        text-align: center;
+      }
+
+      .clearfix form{
+        width: 70%; 
+        margin-left: 13rem;
+        
       }
 
     .thanks p{
@@ -270,12 +278,11 @@
     }
     .clearfix h1{
         grid-column: 1
-    }
-
+    }*/
+/* 
     #m-table{
-        grid-column: 2;
-        grid-row: 1/2;
-        margin-top: 8.5rem;
+        padding: .5rem;
+        margin-right: 1rem;
     } */
 
     /*DIRECTORY PAGE*/

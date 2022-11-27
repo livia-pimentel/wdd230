@@ -9,6 +9,10 @@ fetch(request)
     })
     .then(function  (jsonObject) {
         const companies = jsonObject['companies'];
+        // let test = companies[Math.floor(Math.random() * companies.length)];
+        // console.log(test)
+        // let test1 = companies[Math.floor(Math.random() * companies.length)];
+        // console.log(test1)
         companies.forEach(displaySpotlight);
         random();
     })
