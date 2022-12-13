@@ -1,0 +1,501 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    max-width: 80rem;
+    margin:auto;
+    background-color: #FFFDAC;
+}
+
+body h1, body h2{
+    text-shadow: black 0.2em 0.2em 0.5em;
+}
+
+/* Header */
+
+#container-header{
+    background-color: #1F9422;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons{
+    font-size: 20px;
+    margin: .7rem;
+}
+
+.fa-instagram, .fa-twitter, .fa-youtube{
+    color: #FFBE2D;
+}
+
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white ;
+    cursor: pointer;
+}
+
+nav{
+    background-color: transparent;
+    margin: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid white;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open{
+    margin: 10px;
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1){
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1){
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2){
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color:#FFBE2D ;
+    color: #1F9422;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    background-color:  #1F9422;
+    padding: .5rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.863);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icons-footer {
+    font-size: 40px;
+    margin: .5rem;
+}
+.fa-map-location-dot{
+    font-size: 40px;
+    margin: .5rem;
+    color: #FFBE2D;
+}
+
+#container-footer address, .contact-footer{
+    padding: .5rem;
+    font-size: 1.1rem
+}
+
+
+.baseboard{
+    display: block;
+    text-align: center;
+    background-color:  #1F9422;
+    padding: .5rem;
+}
+
+.separation{
+    display: none;
+}
+
+
+/* Home Page*/
+
+#weather_container{
+    display: block;
+    text-align: center;
+}
+
+#weather_container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+.image img{
+    width: 80px;
+}
+
+#day1Desc, #day2Desc, #day3Desc{
+    text-transform: capitalize;
+}
+
+.weather > div{
+    margin: .7rem;
+    padding: .7rem;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .4));
+}
+
+.weather > div:hover{
+    background-color: #D69024;
+    color: white;
+}
+
+#day1{
+    visibility: hidden;
+    position: relative;
+}
+
+#day1:after{
+    visibility: visible;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    content: 'Today';
+}
+
+.container-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-info h1{
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.box{
+    width: 400px;
+    height: auto;
+    margin: .5rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+.box:hover{
+    background-color: #D69024;
+}
+
+.card-header {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+
+  .card-header picture img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+  }
+
+  .card-body {
+    height: auto;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 2rem;
+    margin: .5rem;
+  }
+
+  .card-text {
+    font-size: 16.5px;
+    padding: .5rem;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+.mix form fieldset{
+    width: 30%;
+}
+
+.mix form fieldset legend{
+    font-size: 1.5rem;
+}
+
+#fruits_opt{
+    width: 400px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    font-size: 1.3rem;
+}
+
+
+
+/* About Us Page*/
+
+.history, .visit{
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.history-text{
+    padding: .5rem;
+}
+
+.history-text h1, .visit h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+.history-text picture img{
+    width: 280px;
+    border-radius: 15px;
+    margin: .5rem;
+}
+
+.history-text p, .visit p{
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+#container-flip{
+    width: auto;
+    display: block;
+}
+
+.face{
+    width: 350px;
+    height: 320px;
+    perspective: 800px;
+}
+
+.front img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.back{
+    background-color: #D69024;
+}
+
+.back p{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 10%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.front, .back{
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    transition: 900ms;
+}
+
+.front{
+    z-index: 1;
+}
+
+.back{
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.face:hover .front{
+    transform: rotateY(180deg);
+    z-index: 0;
+}
+
+.face:hover .back{
+    transform: rotateY(0);
+    z-index: 1;
+}
+
+
+.visit iframe{
+   margin: .5rem;
+   width: 90%;
+   height: 300px;
+   border: none;
+   border-radius: 10px;
+}
+
+.visit form, .form_fresh form{
+    padding: .6rem;
+}
+
+.visit form fieldset{
+    font-family: 'Montserrat', sans-serif;
+    margin: 1.3rem 0;
+    padding: .5rem;
+    max-width: 90%;
+    border: 2px solid #D69024;
+    border-radius: 10px;
+    
+}
+
+.form_fresh form fieldset{
+    margin: 2.2rem;
+    border: 2px solid #D69024;
+    border-radius: 10px;
+}
+
+.visit form legend, .form_fresh form legend{
+    margin: 0 1rem;
+    padding: 0 5.rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.form_fresh form legend{
+    color: white;
+    font-weight: normal;
+}
+
+.visit form label, .form_fresh form label{
+    max-width: 95%;
+}
+
+.visit form label, .form_fresh form label{
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+
+
+.visit form label input, .visit form label select, textarea, .form_fresh form label input, .form_fresh form label select, .form_fresh form textarea{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    max-width: 40rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form_fresh form textarea{
+    background-color: rgba(128, 128, 128, 0.705);
+}
+
+
+.visit form input.submitBtn, .form_fresh form input.btn_form{
+    border: none;
+    background-color: #D69024;
+    border-radius: 2rem;
+    padding: .75rem 1.5rem;
+    margin: .6rem 0 2rem;
+    width: 95%;
+    max-width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.visit form label input:required, .form_fresh form label input:required{
+    background-color: rgba(243, 49, 49, 0.568);
+}
+
+.visit form label input:required:valid{
+    background-color:#06ac06b0  ;
+}
+
+.visit hr{
+    border: 2px solid #D69024;
+    margin: 1rem;
+}
+
+.visit p{
+    margin: .7rem;
+}
+
+.form_fresh form label input:required:valid{
+    background-color: #06ac06b0;
+}
+
+.form_fresh select{
+    padding: .6rem;
+    margin: .6rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(241, 241, 96, 0.849);
+}
+
+
+#feedback {
+    background-color: antiquewhite;
+    padding: .5em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1F9422;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    display: none;
+
+}
+
+
+
+
+
+
+/* Fresh Page*/
+.form_fresh{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/fruits.webp');
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
