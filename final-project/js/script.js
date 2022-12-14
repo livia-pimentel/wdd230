@@ -96,6 +96,7 @@ if("IntersectionObserver" in window){
 const request_home = "./js/fruits.json";
 const fruits = document.querySelector('#fruits_opt');
 const btn = document.querySelector('#btnSend');
+let selected = 0
 
 
 fetch(request_home)
@@ -111,9 +112,21 @@ fetch(request_home)
 
         let options = document.createElement('input');
         options.type = 'checkbox';
-        options.id = `${fruit.name}`
-        // options.name = `${fruit.name}`
-        // options.value = `${fruit.name}`
+        options.name = `${fruit.name}`
+        options.value = `${fruit.name}`
+        options.id = 'checkBoxes'
+
+        storageDrink()
+        
+        // options.addEventListener('click', function(){
+        //     selected = 0
+        //         if(options.checked){
+        //             selected++
+        //     }
+        //     alert(selected)
+           
+        // })
+
     
         let label = document.createElement('label')
         label.htmlFor = `${fruit.name}`
@@ -124,54 +137,29 @@ fetch(request_home)
         fruits.appendChild(options)
         fruits.appendChild(label)
         fruits.appendChild(br)
+        
 
     }
 
 
-
-
-
-
-
-
-
-
-
     
-
-
-
-
-    
-
-    // document.getElementById('btnSend').onclick = function(){
-    //     let opt = document.querySelector('#fruits_opt');
-    //     let selectFruits = Array.from(opt.options)
-    //         .filter(option => option.checked)
-    //         .map(option => option.value);
-    //         // storageDrink()
-    //         // value()
-    //     document.getElementById('result').innerHTML = `The Fruit(s) were: ${selectFruits}`
-    // }
-
-
 
 
 //Storage
-    // function storageDrink(){
-    //     const drinks = document.querySelector('.drinks');
+    function storageDrink(){
+        const drinks = document.querySelector('.drinks');
 
-    //     let totalDrinks = Number(window.localStorage.getItem('drinks-ls'));
+        let totalDrinks = Number(window.localStorage.getItem('drinks-ls'));
     
-    //     if (totalDrinks > 0){
-    //         drinks.textContent = totalDrinks;
-    //     } else{
-    //         drinks.textContent = `You haven't chosen any drinks yet!`
-    //     }
+        if (totalDrinks > 0){
+            drinks.textContent = totalDrinks;
+        } else{
+            drinks.textContent = `You haven't chosen any drinks yet!`
+        }
     
-    //     totalDrinks++;
+        totalDrinks++;
     
-    //     localStorage.setItem('drinks-ls', totalDrinks)
-    // }
+        localStorage.setItem('drinks-ls', totalDrinks)
+    }
 
 

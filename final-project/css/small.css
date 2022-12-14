@@ -491,7 +491,7 @@ footer{
 
 /* Fresh Page*/
 .form_fresh{
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/fruits.webp');
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/fruits.webp');
     background-position: center;
     background-size: cover;
     height: 150vh;
