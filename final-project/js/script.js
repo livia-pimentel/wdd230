@@ -96,8 +96,8 @@ if("IntersectionObserver" in window){
 const request_home = "./js/fruits.json";
 const fruits = document.querySelector('#fruits_opt');
 const btn = document.querySelector('#btnSend');
-let selected = 0
-
+listIds = [];
+storageDrink(listIds.length)
 
 fetch(request_home)
     .then(function (response){
@@ -112,22 +112,22 @@ fetch(request_home)
 
         let options = document.createElement('input');
         options.type = 'checkbox';
-        options.name = `${fruit.name}`
-        options.value = `${fruit.name}`
-        options.id = 'checkBoxes'
+        options.name = fruit.name
+        options.value = fruit.name
+        options.id = fruit.id
 
-        storageDrink()
-        
-        // options.addEventListener('click', function(){
-        //     selected = 0
-        //         if(options.checked){
-        //             selected++
-        //     }
-        //     alert(selected)
-           
-        // })
+        options.addEventListener ('click', function(){
+            if(options.checked == false){
+                listIds.splice(listIds.indexOf(options.id),1);
+            }else if(options.checked == true){
+                listIds.push(options.id);
+            }
 
-    
+            storageDrink(listIds.length);
+            
+        })
+
+   
         let label = document.createElement('label')
         label.htmlFor = `${fruit.name}`
         label.appendChild(document.createTextNode(`${fruit.name}`));
@@ -137,29 +137,28 @@ fetch(request_home)
         fruits.appendChild(options)
         fruits.appendChild(label)
         fruits.appendChild(br)
-        
-
     }
-
-
-    
 
 
 //Storage
-    function storageDrink(){
-        const drinks = document.querySelector('.drinks');
+function storageDrink(list){
+    const drinks = document.querySelector('.drinks');
 
-        let totalDrinks = Number(window.localStorage.getItem('drinks-ls'));
-    
-        if (totalDrinks > 0){
-            drinks.textContent = totalDrinks;
-        } else{
-            drinks.textContent = `You haven't chosen any drinks yet!`
-        }
-    
-        totalDrinks++;
-    
-        localStorage.setItem('drinks-ls', totalDrinks)
+    let totalDrinks = Number(window.localStorage.getItem('drinks-ls'));
+
+    if (totalDrinks == 0){
+        localStorage.setItem('drinks-ls', totalDrinks);
     }
+
+    if (list > 0){
+        drinks.textContent = list;
+        localStorage.setItem('drinks-ls', list);
+    } else{
+        localStorage.setItem('drinks-ls', 0);
+        drinks.textContent = `You haven't chosen any drinks yet!`
+    }
+    totalDrinks++; 
+}
+
 
 

@@ -38,6 +38,23 @@
         width: 400px;
     }
 
+    #fruits_opt{
+        width: 350px;
+        height: 300px;
+        font-size: 1.5rem;
+    }
+
+    .mix picture img{
+        width: 63%;
+        height: 50%;
+        float: right;
+    }
+
+    .mix form #btnSend{
+        margin: 1%;
+        width: 350px;
+    }
+
     /* About Us Page */
     .history-text p{
         padding: .5rem;
@@ -45,6 +62,7 @@
 
     .history-text picture img{
         width: auto;
+        height: 420px;
         float: right;
     }
 
@@ -66,7 +84,7 @@
     }
 
     .form_fresh{
-        height: 130vh;
+        height: 170vh;
     }
 
 

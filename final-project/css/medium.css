@@ -72,6 +72,33 @@
         width: 300px;
     }
 
+    .container-info, .mix{
+        width: 100%;
+    }
+
+    .card-3{
+        width: 50%;
+    }
+
+    .mix{
+        width: 100%;
+    }
+    #fruits_opt{
+        width: 300px;
+        height: 200px;
+        font-size: 1.5rem;
+    }
+
+    .mix picture img{
+        width: 40%;
+        height: 60%;
+        float: right;
+    }
+
+    .mix form #btnSend{
+        margin: 2%;
+        width: 300px;
+    }
 
     /* About Us Page */
     .history-text h1, .visit h1{
@@ -103,7 +130,7 @@
     }
 
 
-
+/* 
     .mix{
         background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
         background-position: center;
@@ -114,7 +141,7 @@
         padding: .5rem;
         margin: .5rem;
 
-    }
+    } */
 
     .mix h2{
         text-align: center;
