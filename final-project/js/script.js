@@ -129,8 +129,9 @@ fetch(request_home)
 
    
         let label = document.createElement('label')
-        label.htmlFor = `${fruit.name}`
-        label.appendChild(document.createTextNode(`${fruit.name}`));
+        label.id = fruit.id
+        label.name = fruit.name
+        label.appendChild(document.createTextNode(fruit.name));
 
         let br = document.createElement('br')
 

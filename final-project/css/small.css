@@ -13,7 +13,6 @@ font-family: 'Poppins', sans-serif;
 body{
     max-width: 80rem;
     margin:auto;
-    background-color: #FFFDAC;
 }
 
 body h2{
@@ -153,7 +152,6 @@ footer address{
 #weather_container h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
-    color: #1F9422;
 }
 
 
@@ -181,7 +179,7 @@ footer address{
 }
 
 .weather > div:hover{
-    background-color: #D69024;
+    background-color:#FFBE2D;
     color: white;
 }
 
@@ -214,7 +212,6 @@ footer address{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    color: #1F9422;
 }
 
 .box{
@@ -328,13 +325,10 @@ footer address{
 
 }
 
-
-/* .mix{
-    background: url('../images/fruits.webp');
-    background-position: center;
-    background-size: cover;
-    height: 120vh;
-} */
+input[type="checkbox"]{
+    width: 1.8rem ;
+    height: 1.5rem ;
+}
 
 
 
@@ -345,6 +339,7 @@ footer address{
     padding: .5rem;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3));
 }
 
 .history-text{
